@@ -16,7 +16,7 @@ However, the above mentioned TL practive is puzzling, in the sense that **MIC ty
 <div align="center">
 <figure>
 <p><img src="figures/chest-Xray.png" width="456">
-<figcaption>Figure 1 HIRP Distribution</figcaption>
+<figcaption>Figure 1: An example chest X-ray with observable pathologies.</figcaption>
 </figure>
 </div>
 
