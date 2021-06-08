@@ -17,8 +17,6 @@ However, the above mentioned TL practive is puzzling, in the sense that **MIC ty
 <figure>
 <p><img src="figures/chest-Xray.png" width="456">
 <figcaption>Figure 1: An example chest X-ray with observable pathologies</figcaption>
-</figure>
-</div>
 
 
 Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we may not need to reuse the high-level pretrained features. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
