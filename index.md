@@ -1,10 +1,21 @@
 # Rethink Transfer Learning in Medical ImageClassification
-## Wednesday, June 9, 2021
-### Posted by Hegyue Liang, PhD student, Electrical and Computer Enginerring, University of Minnesota
- 
-You can use the [editor on GitHub](https://github.com/HengyueL/MedTL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Wednesday, June 9, 2021
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Posted by Hegyue Liang, PhD student, Electrical and Computer Enginerring, University of Minnesota
+ 
+**some test bold text**
+[Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning) (TL) with deep convolutional neural networks (DCNNs) has proved successful in medical image classification (MIC). The following two steps are taken in the conventional TL practice:
+1) Pretraining: A DCNN is first trained on a general-purpose, large-scale benchmark computer vision dataset (e.g., [Imagenet](https://www.image-net.org/)).
+2) Fine-tuning: The pretrained DCNN is then trained on the target dataset of interest (e.g., chest x-ray images to identify diseases).
+
+It is generally believed that the pretraining step helps the DCNN to learn general features of the natural images, which can be reused to the target task, only speeding up the training, but also improving the performace.
+
+However, the above mentioned practice of TL is puzzling, in the sense that MIC typically relies only on low- and/or mid-level features that are learned in the bottom layers of DCNNs. For example, in a chest x-ray image shown below, doctors relies on low-/mid-level visual features (such as blobs, oppacities) to diagnose pathologies.
+[chest_xray.pdf](https://github.com/HengyueL/MedTL/files/6619498/chest_xray.pdf)
+
+
+
+
 
 ### Markdown
 
