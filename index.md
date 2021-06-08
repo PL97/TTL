@@ -13,11 +13,11 @@ It is generally believed that the pretraining step helps the DCNN to learn gener
 
 However, the above mentioned TL practive is puzzling, in the sense that **MIC typically relies on ONLY low- and/or mid-level features** that are learned in the bottom layers of DCNNs. For example, in a chest x-ray image shown below, doctors relies on low-/mid-level visual features (such as blobs, oppacities) to diagnose pathologies, while high-level features (e.g., to tell that this is a human chest) is irrelevant to our diagnostic task.
 
-![Chest x-ray](https://github.com/sun-umn/Transfer-Learning-in-Medical-Imaging/chest_xray.pdf)
+![Chest x-ray](https://github.com/sun-umn/Transfer-Learning-in-Medical-Imaging/figures/chest-Xray.png)
 
 <div align="center">
 <figure>
-<p><img src="chest_xray.pdf" width="456">
+<p><img src="figures/chest-Xray.png" width="456">
 <figcaption>Figure 1 HIRP Distribution</figcaption>
 </figure>
 </div>
