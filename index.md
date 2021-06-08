@@ -1,4 +1,4 @@
-# Rethink Transfer Learning in Medical ImageClassification
+# Rethink Transfer Learning in Medical Image Classification
 Wednesday, June 9, 2021
 
 Posted by Hegyue Liang, PhD student, Electrical and Computer Enginerring, University of Minnesota
