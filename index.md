@@ -1,5 +1,7 @@
-## Welcome to GitHub Pages
-
+# Rethink Transfer Learning in Medical ImageClassification
+## Wednesday, June 9, 2021
+### Posted by Hegyue Liang, PhD student, Electrical and Computer Enginerring, University of Minnesota
+ 
 You can use the [editor on GitHub](https://github.com/HengyueL/MedTL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
