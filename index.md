@@ -15,6 +15,13 @@ However, the above mentioned TL practive is puzzling, in the sense that **MIC ty
 
 ![Chest x-ray](https://github.com/sun-umn/Transfer-Learning-in-Medical-Imaging/chest_xray.pdf)
 
+<div align="center">
+<figure>
+<p><img src="chest_xray.pdf" width="456">
+<figcaption>Figure 1 HIRP Distribution</figcaption>
+</figure>
+</div>
+
 Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we may not need to reuse the high-level pretrained features. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
 
    1. Deep models are **not** always favorable, but TL most often benefits the model performance, no matter the network is shallow or deep. This conclusion challenges part of the conclusion made in a prior work: [Transfusion:Understanding Transfer Learning for Medical Imaging](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html).
