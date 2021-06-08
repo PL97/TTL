@@ -13,10 +13,8 @@ It is generally believed that the pretraining step helps the DCNN to learn gener
 
 However, the above mentioned TL practive is puzzling, in the sense that **MIC typically relies on ONLY low- and/or mid-level features** that are learned in the bottom layers of DCNNs. For example, in a chest x-ray image shown below, doctors relies on low-/mid-level visual features (such as blobs, oppacities) to diagnose pathologies, while high-level features (e.g., to tell that this is a human chest) is irrelevant to our diagnostic task.
 
-<figure>
-<p><img src="figures/chest-Xray.png" width="456">
+<figure><img src="figures/chest-Xray.png" width="456"></figure>
 <figcaption>Figure 1: An example chest X-ray with observable pathologies</figcaption>
-</figure>
 
 Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we may not need to reuse the high-level pretrained features. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
 
