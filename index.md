@@ -3,7 +3,7 @@ Wednesday, June 9, 2021
 
 Posted by Hegyue Liang, PhD student, Electrical and Computer Enginerring, University of Minnesota
  
-**[Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)** (TL) with deep convolutional neural networks (DCNNs) has proved successful in medical image classification (MIC). The following two steps are taken in the conventional TL practice:
+**[Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)** (TL) with deep convolutional neural networks (DCNNs) has proved successful in many medical image classification (MIC). In the conventional TL practice, the following two steps are taken :
 
     1. **Pretraining**: A DCNN is first trained on a general-purpose, large-scale benchmark computer vision dataset (e.g., [Imagenet](https://www.image-net.org/)).
 
@@ -11,10 +11,11 @@ Posted by Hegyue Liang, PhD student, Electrical and Computer Enginerring, Univer
 
 It is generally believed that the pretraining step helps the DCNN to learn general features of the natural images, which can be reused to the target task. As a result, TL can not only speed up the training, but also improve the performace.
 
-However, the above mentioned practice of TL is puzzling, in the sense that **MIC typically relies only on low- and/or mid-level features** that are learned in the bottom layers of DCNNs. For example, in a chest x-ray image shown below, doctors relies on low-/mid-level visual features (such as blobs, oppacities) to diagnose pathologies, while high-level features (e.g., to tell that this is a human chest) is irrelevant to our diagnostic task.
+However, the above mentioned TL practive is puzzling, in the sense that **MIC typically relies on ONLY low- and/or mid-level features** that are learned in the bottom layers of DCNNs. For example, in a chest x-ray image shown below, doctors relies on low-/mid-level visual features (such as blobs, oppacities) to diagnose pathologies, while high-level features (e.g., to tell that this is a human chest) is irrelevant to our diagnostic task.
+
 [chest_xray.pdf](https://github.com/HengyueL/MedTL/files/6619498/chest_xray.pdf)
 
-Follow this intuition, it is naturally questionable if the current practive of TL in MIC is the best possible, since we may not need to reuse the high-level pretrained features in the target MIC task. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with differnet TL strategies, to answer this question. Indeed, we find that:
+Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we may not need to reuse the high-level pretrained features. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
 
     1. Deep models are **not** always favorable, but TL most often benefits the model performance, no matter the network is shallow or deep. This conclusion challenges part of the conclusion made in a prior work: [Transfusion:Understanding Transfer Learning for Medical Imaging](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html).
 
