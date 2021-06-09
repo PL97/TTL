@@ -83,5 +83,6 @@ As discussed in the very beginning of this post that `MIC typically relies on ON
 
 ### Acknowledgements
 
-
-First posted by Hegyue Liang, Wednesday, June 9, 2021.
+<div align="right"> 
+`First posted by Hegyue Liang, Wednesday, June 9, 2021.`
+</div> 
