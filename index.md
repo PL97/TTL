@@ -1,6 +1,9 @@
 # Rethink Transfer Learning in Medical Image Classification
+
 Le Peng<sup>1</sup>, Hengyue Liang<sup>2</sup>, Taihui Li<sup>1</sup>, Ju Sun<sup>2</sup>
+
 <sup>1</sup> Computer Science and Engineering, University of Minnesota
+
 <sup>2</sup> Electrical and Computer Engineering, University of Minnesota
  
 **[Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)** (TL) with deep convolutional neural networks (DCNNs) has proved successful in many medical image classification (MIC). In the conventional TL practice, the following two steps are taken :
@@ -13,8 +16,10 @@ It is generally believed that the pretraining step helps the DCNN to learn gener
 
 However, the above mentioned TL practive is puzzling, in the sense that **MIC typically relies on ONLY low- and/or mid-level features** that are learned in the bottom layers of DCNNs. For example, in a chest x-ray image shown below, doctors relies on low-/mid-level visual features (such as blobs, oppacities) to diagnose pathologies, while high-level features (e.g., to tell that this is a human chest) is irrelevant to our diagnostic task.
 
+<div align="center">
 <figure><img src="figures/chest-Xray.png" width="456"></figure>
 <figcaption>Figure 1: An example chest X-ray with observable pathologies</figcaption>
+</div>
 
 Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we may not need to reuse the high-level pretrained features. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
 
@@ -60,5 +65,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 
-First posted on Wednesday, June 9, 2021,
-by Hegyue Liang, PhD student, Electrical and Computer Enginerring, University of Minnesota
+First posted by Hegyue Liang, Wednesday, June 9, 2021.
