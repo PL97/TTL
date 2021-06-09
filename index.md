@@ -37,7 +37,7 @@ Follow this intuition, it is naturally questionable if the current TL practice i
 
    3. Point 2 is especially significant in the data-poor regime.
 
-In what follows, we briefly introduce the main messages we would like to convey in our paper.
+In what follows, we briefly introduce our findings.
 
 
 ### Both ROC and PRC should be used to evaluate classifier performance in MIC
