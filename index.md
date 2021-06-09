@@ -76,6 +76,11 @@ We find from our experiment that:
 
 ### Truncated Transfer Learning
 
+As discussed in the very beginning of this post that `MIC typically relies on ONLY low- and/or mid-level features`, it is natural to ask if we can have better ways of performing TL since we may not need high-level features. This motivates us to propose applying TL over truncated networks, which corresponds to different level of feature reusing, as is shown in Figure 6.
+
+
+
+
 
 ### Discussion
 
