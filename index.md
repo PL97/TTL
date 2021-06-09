@@ -18,7 +18,7 @@ Le Peng<sup>1</sup>, Hengyue Liang<sup>2</sup>, Taihui Li<sup>1</sup>, Ju Sun<su
 
 It is generally believed that the pretraining step helps the DCNN to learn general features of the natural images, which can be reused to the target task. As a result, TL can not only speed up the training, but also improve the performace.
 
-However, the above mentioned TL practive is puzzling, in the sense that **MIC typically relies on ONLY low- and/or mid-level features** that are learned in the bottom layers of DCNNs. For example, in a chest x-ray image shown below, doctors relies on low-/mid-level visual features (such as blobs, oppacities) to diagnose pathologies, while high-level features (e.g., to tell that this is a human chest) is irrelevant to our diagnostic task.
+However, the above mentioned **TL practive is puzzling, in the sense that MIC typically relies on ONLY low- and/or mid-level features** that are learned in the **bottom layers of DCNNs**. For example, in a chest x-ray image shown below, doctors relies on low-/mid-level visual features (such as blobs, oppacities) to diagnose pathologies, while high-level features (e.g., to tell that this is a human chest) is irrelevant to our diagnostic task.
 
 <div align="center">
 <figure><img src="figures/chest-Xray.png" width="512"></figure>
@@ -26,22 +26,22 @@ However, the above mentioned TL practive is puzzling, in the sense that **MIC ty
 <figcaption>Figure 1: An example chest X-ray with observable pathologies. Area marked in colored box are pathologies annotated by experienced doctors.</figcaption>
 </div>
 
-Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we may not need to reuse the high-level pretrained features. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
+Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we **may not need to reuse the high-level pretrained features**. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
 
-   1. Deep models are **not** always favorable, but TL most often benefits the model performance, no matter the network is shallow or deep. This conclusion challenges part of the conclusion made in a prior work: [Transfusion:Understanding Transfer Learning for Medical Imaging](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html).
+   1. Deep models are not always favorable, but TL most often benefits the model performance, no matter the network is shallow or deep. This conclusion challenges part of the conclusion made in a prior work: [Transfusion:Understanding Transfer Learning for Medical Imaging](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html).
 
-   2. Fine-tuning **truncated** version of DCNNs almost always yields the best performance in the target MIC task. This, if confirmed further in other medical imaging tasks such as segmentation, can be a new pattern to practice TL in medical image domain.
+   2. Fine-tuning truncated version of DCNNs almost always yields the best performance in the target MIC task. This, if confirmed further in other medical imaging tasks such as segmentation, can be a new pattern to practice TL in medical image domain.
 
-   3. Point 2 is especially significant in **data-poor** regime.
+   3. Point 2 is especially significant in the data-poor regime.
 
 In what follows, we briefly introduce the main messages we would like to convey in our paper.
 
 
 ### Both ROC and PRC should be used to evaluate classifier performance in MIC
 
-In MIC tasks, it is common for the dataset to be highly imbalanced. (For example, one can expect that most medical scans attempting to diagnose a rare disease will return negative result.) In machine learning community, it is well know that precision-recall-curve **(PRC)** is more informative and indicative of the true performance than the receiver-operating-characteristic **(ROC)** curve under dominant negative classes. Here is a simple examplt to illustate the difference between **ROC** and **PRC**:
+**In MIC tasks, it is common for the dataset to be highly imbalanced**. (For example, one can expect that most medical scans attempting to diagnose a rare disease will return negative result.) In machine learning community, it is well know that precision-recall-curve **(PRC)** is more informative and indicative of the true performance than the receiver-operating-characteristic **(ROC)** curve under dominant negative classes. Here is a simple examplt to illustate the difference between **ROC** and **PRC**:
 
-  Let's consider a dataset consisting of 10 positives and 990 negatives for a rare disease. Assume classifier A (CA) scores the positives uniformly random distributed over its top 12 predictions; and classifier B (CB) scores the positives uniformly random distributed over its top 30 predictions. Intuitively, CA is a much better classifer as they detect 1 true-positive (TP) at the cost of 0.2 false-positive (FP), comparing with 1 TP:2 FP for CB --- this information is captured by **Precision**, but not recall.
+    Let's consider a dataset consisting of 10 positives and 990 negatives for a rare disease. Assume classifier A (CA) scores the positives uniformly random distributed over its top 12 predictions; and classifier B (CB) scores the positives uniformly random distributed over its top 30 predictions. Intuitively, CA is a much better classifer as they detect 1 true-positive (TP) at the cost of 0.2 false-positive (FP), comparing with 1 TP:2 FP for CB --- this information is captured by **Precision**, but not recall.
 
 <div align="center">
 <figure><img src="figures/roc.png" width="215"><img src="figures/prc.png" width="215"><img src="figures/conf_table.png" width="215"></figure>
@@ -50,7 +50,7 @@ In MIC tasks, it is common for the dataset to be highly imbalanced. (For example
 </div>
 
 
-  Figure 2 depicts the performance of CA and CB using ROC and PRC metric respectively. As PRC takes into account the precision, it is able to separate CA and CB by a large margin and give a clear indication which is the better classifier under the example imbalanced classification problem. Indeed, one of the main reasons that our paper draws conclusions that challenge the previous work [Transfusion](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) is that they only evaluate their models with ROC curve, whereas we evalute our models with both ROC and PRC curves.
+    Figure 2 depicts the performance of CA and CB using ROC and PRC metric respectively. As PRC takes into account the precision, it is able to separate CA and CB by a large margin and give a clear indication which is the better classifier under the example imbalanced classification problem. Indeed, one of the main reasons that our paper draws conclusions that challenge the previous work [Transfusion](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) is that they only evaluate their models with ROC curve, whereas we evalute our models with both ROC and PRC curves.
 
 ### Transfer Learning (TL) v.s. Random Initialization (RI)
 
