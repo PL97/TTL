@@ -61,10 +61,9 @@ We compare TL and RI on deep networks (DenseNet121, ResNet50, as both are popula
 
 We find from our experiment that:
 
-  1. Under data-rich regime (CheXpert): Overall, TL and RI perform comparably on most pathologies and models, but TL outperforms RI by significant gaps in a number of cases (e.g., ResNet50 on Pt., TL is 10% above RI as measured by AUPRC in Figure 3). Contrary to the conclusion drawn in [Transfusion](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) " transfer learning does not significantly affect performance on medical imaging tasks, with models trained from scratch performing nearly as well as standard ImageNet transferred models.", our result (Figure 4) clearly shows that DenseNet121 with TL is the winner against all other models and AUPRC is the tie-breaker.
+  1. Data-rich regime (CheXpert): Overall, TL and RI perform comparably on most pathologies and models, but TL outperforms RI by significant gaps in a number of cases (e.g., ResNet50 on Pt., TL is 10% above RI as measured by AUPRC in Figure 3). Contrary to the conclusion drawn in [Transfusion](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) " transfer learning does not significantly affect performance on medical imaging tasks, with models trained from scratch performing nearly as well as standard ImageNet transferred models.", our result (Figure 4) clearly shows that **DenseNet121 with TL** is the winner against all other models and **AUPRC is the crucial tie-breaker**.
 
-  2. Under data-poor regime:
-
+  2. Data-poor regime (Our COVID data): As is shown in Figure 5, TL as expected benefits the deep model (DenseNet121) most. For the shallow models, the benefit of TL is not so definite. Although in many cases shallow models with TL performs better than RI, there are also a few cases (e.g., CBR-LargeW with 10% data) RI wins over TL. It is also worth mentioning that in Figure 5, the best performing AUROC model and AUPRC model are not consistent. This disparity again highlights the need for reporting both metrics in MIC tasks.
 
 ### Truncated Transfer Learning
 
