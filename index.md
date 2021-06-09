@@ -6,7 +6,9 @@ Le Peng<sup>1</sup>, Hengyue Liang<sup>2</sup>, Taihui Li<sup>1</sup>, Ju Sun<su
 
 <div align="right"> 
 <sup>1</sup> Computer Science and Engineering, University of Minnesota
+</div>
 
+<div align="right"> 
 <sup>2</sup> Electrical and Computer Engineering, University of Minnesota
 </div>
 
