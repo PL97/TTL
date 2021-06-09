@@ -29,6 +29,13 @@ Follow this intuition, it is naturally questionable if the current TL practice i
 
    3. Point 2 is especially significant in **data-poor** regime.
 
+In what follows, we briefly introduce the main messages we would like to convey in our paper.
+
+
+## Both AUROC and AUPRC should be used to evaluate classifier performance in MIC
+
+In MIC tasks, it is common for the dataset to be highly imbalanced. (For example, one can expect that most medical scans attempting to diagnose a rare disease will return negative result.) In machine learning community, it is well know that precision-recall-curve **(PRC)** is more informative and indicative of the true performance than the receiver-operating-characteristic **(ROC)** curve under dominant negative classes. Here is a simple examplt to illustate the difference between **ROC** and **PRC**:
+
 
 
 
