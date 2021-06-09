@@ -1,7 +1,7 @@
 # Rethink Transfer Learning in Medical Image Classification
-Wednesday, June 9, 2021
-
-Posted by Hegyue Liang, PhD student, Electrical and Computer Enginerring, University of Minnesota
+Le Peng<sup>1</sup>, Hengyue Liang<sup>2</sup>, Taihui Li<sup>1</sup>, Ju Sun<sup>2</sup>
+<sup>1</sup> Computer Science and Engineering, University of Minnesota
+<sup>2</sup> Electrical and Computer Engineering, University of Minnesota
  
 **[Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)** (TL) with deep convolutional neural networks (DCNNs) has proved successful in many medical image classification (MIC). In the conventional TL practice, the following two steps are taken :
 
@@ -58,3 +58,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+First posted on Wednesday, June 9, 2021,
+by Hegyue Liang, PhD student, Electrical and Computer Enginerring, University of Minnesota
