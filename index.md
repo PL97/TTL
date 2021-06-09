@@ -42,7 +42,10 @@ In what follows, we briefly introduce our findings.
 
 ### Both ROC and PRC should be used to evaluate classifier performance in MIC
 
-**In MIC tasks, it is common for the dataset to be highly imbalanced**. (For example, one can expect that most medical scans attempting to diagnose a rare disease will return negative result.) In machine learning community, it is well know that precision-recall-curve **(PRC)** is more informative and indicative of the true performance than the receiver-operating-characteristic **(ROC)** curve under dominant negative classes. Here is a simple examplt to illustate the difference between **ROC** and **PRC**:
+**In MIC tasks, it is common for the dataset to be highly imbalanced**. (For example, one can expect that most medical scans attempting to diagnose a rare disease will return negative result.) In machine learning community, it is well know that precision-recall-curve **(PRC) is more informative and indicative** of the true performance than the receiver-operating-characteristic **(ROC)** curve **under dominant negative classes**. 
+
+
+Here is a simple examplt to illustate the difference between **ROC** and **PRC** curves:
 
 ```markdown
 Let's consider a dataset consisting of 10 positives and 990 negatives for a rare disease. Assume classifier A (CA) scores the positives uniformly random distributed over its top 12 predictions; and classifier B (CB) scores the positives uniformly random distributed over its top 30 predictions. Intuitively, CA is a much better classifer as they detect 1 true-positive (TP) at the cost of 0.2 false-positive (FP), comparing with 1 TP:2 FP for CB --- this information is captured by **Precision**, but not recall.
