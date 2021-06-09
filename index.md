@@ -46,6 +46,8 @@ In what follows, we briefly introduce our findings.
 
 ```
 Let's consider a dataset consisting of 10 positives and 990 negatives for a rare disease. Assume classifier A (CA) scores the positives uniformly random distributed over its top 12 predictions; and classifier B (CB) scores the positives uniformly random distributed over its top 30 predictions. Intuitively, CA is a much better classifer as they detect 1 true-positive (TP) at the cost of 0.2 false-positive (FP), comparing with 1 TP:2 FP for CB --- this information is captured by **Precision**, but not recall.
+```
+
 
 <div align="center">
 <figure><img src="figures/roc.png" width="215"><img src="figures/prc.png" width="215"><img src="figures/conf_table.png" width="215"></figure>
@@ -55,7 +57,7 @@ Let's consider a dataset consisting of 10 positives and 990 negatives for a rare
 
 
    Figure 2 depicts the performance of CA and CB using ROC and PRC metric respectively. As PRC takes into account the precision, it is able to separate CA and CB by a large margin and give a clear indication which is the better classifier under the example imbalanced classification problem. Indeed, one of the main reasons that our paper draws conclusions that challenge the previous work [Transfusion](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) is that they only evaluate their models with ROC curve, whereas we evalute our models with both ROC and PRC curves.
-```
+
 
 ### Transfer Learning (TL) v.s. Random Initialization (RI)
 
