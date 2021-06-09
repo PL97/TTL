@@ -17,7 +17,7 @@ It is generally believed that the pretraining step helps the DCNN to learn gener
 However, the above mentioned TL practive is puzzling, in the sense that **MIC typically relies on ONLY low- and/or mid-level features** that are learned in the bottom layers of DCNNs. For example, in a chest x-ray image shown below, doctors relies on low-/mid-level visual features (such as blobs, oppacities) to diagnose pathologies, while high-level features (e.g., to tell that this is a human chest) is irrelevant to our diagnostic task.
 
 <div align="center">
-<figure><img src="figures/chest-Xray.png" width="456"></figure>
+<figure><img src="figures/chest-Xray.png" width="254"></figure>
 <figcaption>Figure 1: An example chest X-ray with observable pathologies</figcaption>
 </div>
 
@@ -36,7 +36,12 @@ In what follows, we briefly introduce the main messages we would like to convey 
 
 In MIC tasks, it is common for the dataset to be highly imbalanced. (For example, one can expect that most medical scans attempting to diagnose a rare disease will return negative result.) In machine learning community, it is well know that precision-recall-curve **(PRC)** is more informative and indicative of the true performance than the receiver-operating-characteristic **(ROC)** curve under dominant negative classes. Here is a simple examplt to illustate the difference between **ROC** and **PRC**:
 
-
+<div align="center">
+<figure><img src="figures/roc.pdf" width="254"></figure>
+<figure><img src="figures/prc.pdf" width="254"></figure>
+<figure><img src="figures/conf_table.png" width="254"></figure>
+<figcaption>Figure 1: An example chest X-ray with observable pathologies</figcaption>
+</div>
 
 
 ### Markdown
