@@ -1,10 +1,12 @@
 # Rethink Transfer Learning in Medical Image Classification
 
+<div align="center">
 Le Peng<sup>1</sup>, Hengyue Liang<sup>2</sup>, Taihui Li<sup>1</sup>, Ju Sun<sup>1</sup>
 
 <sup>1</sup> Computer Science and Engineering, University of Minnesota
 
 <sup>2</sup> Electrical and Computer Engineering, University of Minnesota
+ </div>
  
 **[Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)** (TL) with deep convolutional neural networks (DCNNs) has proved successful in many medical image classification (MIC). In the conventional TL practice, the following two steps are taken :
 
@@ -33,7 +35,7 @@ Follow this intuition, it is naturally questionable if the current TL practice i
 In what follows, we briefly introduce the main messages we would like to convey in our paper.
 
 
-## Both ROC and PRC should be used to evaluate classifier performance in MIC
+### Both ROC and PRC should be used to evaluate classifier performance in MIC
 
 In MIC tasks, it is common for the dataset to be highly imbalanced. (For example, one can expect that most medical scans attempting to diagnose a rare disease will return negative result.) In machine learning community, it is well know that precision-recall-curve **(PRC)** is more informative and indicative of the true performance than the receiver-operating-characteristic **(ROC)** curve under dominant negative classes. Here is a simple examplt to illustate the difference between **ROC** and **PRC**:
 
@@ -48,7 +50,7 @@ In MIC tasks, it is common for the dataset to be highly imbalanced. (For example
 
   Figure 2 depicts the performance of CA and CB using ROC and PRC metric respectively. As PRC takes into account the precision, it is able to separate CA and CB by a large margin and give a clear indication which is the better classifier under the example imbalanced classification problem. Indeed, one of the main reasons that our paper draws conclusions that challenge the previous work [Transfusion](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) is that they only evaluate their models with ROC curve, whereas we evalute our models with both ROC and PRC curves.
 
-## Transfer Learning (TL) v.s. Random Initialization (RI)
+### Transfer Learning (TL) v.s. Random Initialization (RI)
 
 We compare TL and RI on deep networks (DenseNet121, ResNet50, as both are popular choices in Medical Imaging Classification tasks) and shallow networks (CBR families as introduced in [Transfusion](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html)). We choose the public dataset [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) as the data-rich regime, since the whole dataset consists of 224,316 chest radiographs, much more than typical medical datasets that are maintained in local hospitals/institutions; we simulate the data-poor regime with our [local COVID dataset obtained from M Health Fairview, Minnesota](https://www.medrxiv.org/content/10.1101/2021.06.04.21258316v1) (the smallest subset consists of only 88 positives and 1451 negatives), whose size is more commonly seen in real-life practice.
 
@@ -59,13 +61,13 @@ We find from our experiment that:
   2. Under data-poor regime:
 
 
-## Truncated Transfer Learning
+### Truncated Transfer Learning
 
 
-## Discussion
+### Discussion
 
 
-## Acknowledgements
+### Acknowledgements
 
 
 ### Markdown
