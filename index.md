@@ -19,7 +19,7 @@ However, the above mentioned TL practive is puzzling, in the sense that **MIC ty
 <div align="center">
 <figure><img src="figures/chest-Xray.png" width="512"></figure>
 
-<figcaption>Figure 1: An example chest X-ray with observable pathologies</figcaption>
+<figcaption>Figure 1: An example chest X-ray with observable pathologies. Area marked in colored box are pathologies annotated by experienced doctors.</figcaption>
 </div>
 
 Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we may not need to reuse the high-level pretrained features. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
@@ -40,7 +40,7 @@ In MIC tasks, it is common for the dataset to be highly imbalanced. (For example
 Let's consider a dataset consisting of 10 positives and 990 negatives for a rare disease. Assume classifier A (CA) scores the positives uniformly random distributed over its top 12 predictions; and classifier B (CB) scores the positives uniformly random distributed over its top 30 predictions. Intuitively, CA is a much better classifer as they detect 1 true-positive (TP) at the cost of 0.2 false-positive (FP), comparing with 1 TP:2 FP for CB --- this information is captured by **Precision**, but not recall.
 
 <div align="center">
-<figure><img src="figures/roc.png" width="200"><img src="figures/prc.png" width="200"><img src="figures/conf_table.png" width="200"></figure>
+<figure><img src="figures/roc.png" width="215"><img src="figures/prc.png" width="215"><img src="figures/conf_table.png" width="215"></figure>
 
 <figcaption>Figure 2: ROC (left) and PRC (middle) of CA and CB for the example classification task. The ROC curves for both classifiers are high and close, almost showing no significant performance gap; while the PRC curve seperate two classifiers apart, reflecting the precision gap of the two classifiers. The confusion table (Right) recaps the definition of ROC, PRC and relevant terminologies.</figcaption>
 </div>
