@@ -1,6 +1,6 @@
 # Rethink Transfer Learning in Medical Image Classification
 
-<div align="center">
+<div align="right">
 Le Peng<sup>1</sup>, Hengyue Liang<sup>2</sup>, Taihui Li<sup>1</sup>, Ju Sun<sup>1</sup>
 
 <sup>1</sup> Computer Science and Engineering, University of Minnesota
