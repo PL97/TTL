@@ -13,7 +13,7 @@ Le Peng<sup>1</sup>, Hengyue Liang<sup>2</sup>, Taihui Li<sup>1</sup>, Ju Sun<su
 </div>
 
  
-**[Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)** (TL) with deep convolutional neural networks (DCNNs) has proved successful in many medical image classification (MIC). In the conventional TL practice, the following two steps are taken :
+**[Transfer learning](https://en.wikipedia.org/wiki/Transfer_learning)** (TL) with deep convolutional neural networks (DCNNs) has proved successful in many medical image classification (MIC) tasks. In the conventional TL practice, the following two steps are taken :
 
    1. **Pretraining**: A DCNN is first trained on a general-purpose, large-scale benchmark computer vision dataset (e.g., [ImageNet](https://www.image-net.org/)).
 
