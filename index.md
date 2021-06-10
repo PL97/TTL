@@ -29,7 +29,7 @@ However, the above mentioned **TL practive is puzzling, in the sense that MIC ty
 <figcaption>Figure 1: An example chest X-ray with observable pathologies. Area marked in colored box are pathologies annotated by experienced pathologists.</figcaption>
 </div>
 
-Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we **may not need to reuse the high-level pretrained features**. In our paper **[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
+Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we **may not need to reuse the high-level pretrained features**. In our paper **'[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)'**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
 
    1. Deep models are not always favorable, but TL most often benefits the model performance, no matter the network is shallow or deep. This conclusion challenges part of the conclusion made in a prior work: [Transfusion:Understanding Transfer Learning for Medical Imaging](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html).
 
@@ -47,7 +47,7 @@ In what follows, we briefly introduce our findings.
 
 Here is a simple examplt to illustate the difference between **ROC** and **PRC** curves:
 
-`Let's consider a dataset consisting of 10 positives and 990 negatives for a rare disease. Assume classifier A     (CA) scores the positives uniformly random distributed over its top 12 predictions; and classifier B (CB) scores   the positives uniformly random distributed over its top 30 predictions. Intuitively, CA is a much better           classifer as they detect 1 true-positive (TP) at the cost of 0.2 false-positive (FP), comparing with 1 TP:2 FP     for CB --- this information is captured by **Precision**, but not recall.`
+`  Let's consider a dataset consisting of 10 positives and 990 negatives for a rare disease. Assume classifier A     (CA) scores the positives uniformly random distributed over its top 12 predictions; and classifier B (CB) scores   the positives uniformly random distributed over its top 30 predictions. Intuitively, CA is a much better           classifer as they detect 1 true-positive (TP) at the cost of 0.2 false-positive (FP), comparing with 1 TP:2 FP     for CB --- this information is captured by **Precision**, but not recall.`
 
 
 <div align="center">
@@ -57,7 +57,7 @@ Here is a simple examplt to illustate the difference between **ROC** and **PRC**
 </div>
 
 
-`Figure 2 depicts the performance of CA and CB using ROC and PRC metric respectively. As PRC takes into account     the precision, it is able to separate CA and CB by a large margin and give a clear indication which is the         better classifier under the example imbalanced classification problem. Indeed, one of the main reasons that our   paper draws conclusions that challenge the previous work [Transfusion]                     (https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) is that they only evaluate their       models with ROC curve, whereas we evalute our models with both ROC and PRC curves.`
+`  Figure 2 depicts the performance of CA and CB using ROC and PRC metric respectively. As PRC takes into account     the precision, it is able to separate CA and CB by a large margin and give a clear indication which is the         better classifier under the example imbalanced classification problem. Indeed, one of the main reasons that our   paper draws conclusions that challenge the previous work [Transfusion]                     (https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) is that they only evaluate their       models with ROC curve, whereas we evalute our models with both ROC and PRC curves.`
 
 
 ### Transfer Learning (TL) v.s. Random Initialization (RI)
@@ -72,16 +72,41 @@ We find from our experiment that:
 
 ### Truncated Transfer Learning
 
-As discussed in the very beginning of this post that `MIC typically relies on ONLY low- and/or mid-level features`, it is natural to ask if we can have better ways of performing TL since we may not need high-level features. This motivates us to propose applying TL over truncated networks, which corresponds to different level of feature reusing, as is shown in Figure 6.
+As discussed earlier in this post that `MIC typically relies on ONLY low- and/or mid-level features`, it is natural to ask if we can have better ways of performing TL since we may not need high-level features. This motivates us to propose applying TL over truncated networks, which corresponds to different level of feature reusing, as is shown in Figure 6.
 
 
+Figure 7 summarizes the result on our COVID dataset and Figure 8 on CheXpert. Based on these experiments, we can conclude:
+
+  1. The heavily truncated network (Dens-T1, Dens-T2) are the top two performant models when combined with TL on the COVID dataset. From COVID-19 medical studies, it is known that salient radiomic features for COVID-19 are opacities and consolidation in the lung area that only concern low-level textures. Thus this result is a strong confirmation that only a reasonable number of bottom layers are needed for efficient TL in this task.
+  2. The mid-level truncation Dens-T3 is overall the best model on the CheXpert dataset, with Dens-F is almost comparable to Dens-T3 in most cases. This disparity can again be explained by feature hierarchy. In CheXpert, pathologies such as atelectasis and pneumothorax need relatively high-level features as they start to concern shapes, in contrast to the low-level texture features used in COVID-19.
+  3. Another observation from Figure 8 is that on EC, LL, PO, Fr., the AUPRCs are very low (below 20%) although the corresponding AUROCs are all above 60% or even mostly 70%. These are rare diseases in CheXpert with high imbalance ratios `(positive : negative is at best less than 1:15)`. Even for the best models here, the AUROCs may be considered decent, but their actual performance, when precision is taken into account via AUPRC, is very poor.
+This reinforces our claim that AUPRC needs to be reported when evaluating classifiers on data with class imbalance.
 
 
+### Conclusions and Future Work
 
-### Discussion
+
+In this work we revisited trasfer learning (TL) in medical imageing classification (MIC) on chest x-rays. By evaluating different TL strategies on a number of shallow and deep convolutional networks, we find that:
+
+  1. TL does benefit the classification performance, especially in data-poor scenarios.
+  2. Only transferring truncated deep pretrained models up to layers commensurate with the level of features needed for the classification task leads to superior performance compared to conventional TL on deep and shallow
+models.
+  3. Our work also highlighted the role of AUPRC in distinguishing good classifiers from mediocre ones under class imbalanced dataset.
+
+
+Our results support that low- and mid-level visual features are probably sufficient for typical MIC. Therefore, it would be interesting in the future to:
+
+  1. perform evaluation on other image modalities, such as CT and MRI images. If similar conclusion holds, the truncated TL strategy can lead to a profound saving of computing resources while keeping good performance for model training and inference on 3D medical data.
+  2. validate the conclusion on segmentation, another major family of imaging tasks, and other diseases.
+  3. investigate TL from models directly trained on medical datasets (e.g., Nvidia Clara Imaging) instead of natural images for computer vision tasks (e.g., ImageNet).
 
 
 ### Acknowledgements
+
+The authors acknowledge the Minnesota Supercomputing
+Institute (MSI) at the University of Minnesota, and Microsoft Azure for providing
+computing resources.
+
 
 <div align="right"> 
 `First posted by Hegyue Liang, Wednesday, June 9, 2021.`
