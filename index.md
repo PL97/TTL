@@ -29,13 +29,13 @@ However, the above mentioned **TL practive is puzzling, in the sense that MIC ty
 <figcaption>Figure 1: An example chest X-ray with observable pathologies. Area marked in colored box are pathologies annotated by experienced pathologists.</figcaption>
 </div>
 
-Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we **may not need to reuse the high-level pretrained features**. In our paper **'[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)'**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
+Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we **may not need to reuse the high-level pretrained features**. In our paper **'[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)'**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies on chest X-ray classification tasks, to answer this question. Indeed, we find that:
 
    1. Deep models are not always favorable, but TL most often benefits the model performance, no matter the network is shallow or deep. This conclusion challenges part of the conclusion made in a prior work: [Transfusion:Understanding Transfer Learning for Medical Imaging](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html).
 
    2. Fine-tuning truncated version of DCNNs almost always yields the best performance in the target MIC task. This, if confirmed further in other pathology dataset and classification, other type of medical images such as CT scans and other medical imaging tasks such as segmentation, can lead to a new pattern to practice TL in medical image domain.
 
-   3. Point 2 is especially significant in the data-poor regime.
+   3. Fine-tuning truncated version of DCNNs is especially significant in the data-poor regime in our experiment.
 
 In what follows, we briefly introduce our findings.
 
