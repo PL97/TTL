@@ -145,5 +145,7 @@ The authors acknowledge the [Minnesota Supercomputing Institute (MSI)](https://w
 
 
 <div align="right"> 
-`First posted by Hegyue Liang, Wednesday, June 9, 2021.`
+ 
+First posted by Hegyue Liang, Wednesday, June 9, 2021.
+
 </div> 
