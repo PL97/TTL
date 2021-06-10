@@ -1,5 +1,7 @@
 # [Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)
 
+|[Paper](https://arxiv.org/abs/2106.05152)|
+
 <div align="right"> 
 Le Peng<sup>1</sup>, Hengyue Liang<sup>2</sup>, Taihui Li<sup>1</sup>, Ju Sun<sup>1</sup>
 </div>
