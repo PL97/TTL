@@ -37,7 +37,7 @@ Follow this intuition, it is naturally questionable if the current TL practice i
 
    3. Fine-tuning truncated version of DCNNs is especially significant in the data-poor regime in our experiment.
 
-In what follows, we briefly introduce our findings.
+In what follows, we briefly introduce our research and findings.
 
 
 ### Both ROC and PRC should be used to evaluate classifier performance in MIC
