@@ -1,4 +1,4 @@
-# Rethink Transfer Learning in Medical Image Classification
+# [Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)
 
 <div align="right"> 
 Le Peng<sup>1</sup>, Hengyue Liang<sup>2</sup>, Taihui Li<sup>1</sup>, Ju Sun<sup>1</sup>
@@ -29,7 +29,7 @@ However, the above mentioned **TL practive is puzzling, in the sense that MIC ty
 <figcaption>Figure 1: An example chest X-ray with observable pathologies. Area marked in colored box are pathologies annotated by experienced pathologists.</figcaption>
 </div>
 
-Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we **may not need to reuse the high-level pretrained features**. In our **Conference Name** paper, **Insert Paper name and Link Here**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
+Follow this intuition, it is naturally questionable if the current TL practice is the best possible in MIC domain, since we **may not need to reuse the high-level pretrained features**. In our paper **[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)**, we perform careful experimental comparisons on shallow and deep networks, with different TL strategies, to answer this question. Indeed, we find that:
 
    1. Deep models are not always favorable, but TL most often benefits the model performance, no matter the network is shallow or deep. This conclusion challenges part of the conclusion made in a prior work: [Transfusion:Understanding Transfer Learning for Medical Imaging](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html).
 
