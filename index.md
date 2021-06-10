@@ -66,30 +66,60 @@ Here is a simple examplt to illustate the difference between **ROC** and **PRC**
 
 We find from our experiment that:
 
-  1. Data-rich regime (CheXpert): Overall, TL and RI perform comparably on most pathologies and models, but TL outperforms RI by significant gaps in a number of cases (e.g., ResNet50 on Pt., TL is 10% above RI as measured by AUPRC in Figure 3). Contrary to the conclusion drawn in [Transfusion](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) `transfer learning does not significantly affect performance on medical imaging tasks, with models trained from scratch performing nearly as well as standard ImageNet transferred models`, our result (Figure 4) clearly shows that **DenseNet121 with TL** is the winner against all other models and **AUPRC is the crucial tie-breaker**.
+  1. Data-rich regime (CheXpert): Overall, TL and RI perform comparably on most pathologies and models, but TL outperforms RI by significant gaps in a number of cases (e.g., ResNet50 on Pt., TL is 10% above RI as measured by AUPRC in Figure 3). Contrary to the conclusion drawn in [Transfusion](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html) `transfer learning does not significantly affect performance on medical imaging tasks, with models trained from scratch performing nearly as well as standard ImageNet transferred models`, our result in Figure 3 clearly shows that **DenseNet121 with TL** is the winner against all other models and **AUPRC is the crucial tie-breaker**.
 
-  2. Data-poor regime (Our COVID data): As is shown in Figure 5, TL as expected benefits the deep model (DenseNet121) most. For the shallow models, the benefit of TL is not so definite. Although in many cases shallow models with TL performs better than RI, there are also a few cases (e.g., CBR-LargeW with 10% data) RI wins over TL. It is also worth mentioning that in Figure 5, the best performing AUROC model and AUPRC model are not consistent. This disparity again highlights the need for reporting both metrics in MIC tasks.
+
+<div align="center">
+<figure><img src="figures/CheXpert-TLRI.png" width="864"></figure>
+
+<figcaption>Figure 3: TL v.s. RI on CheXpert for deep and shallow networks. For most cases RI performs on par with TL (especially for shallow networks), but in a number of cases TL outperforms RI by a gap, especially noticable when measured by AUPRC. </figcaption>
+</div>
+
+
+  2. Data-poor regime (Our COVID data): As is shown in Figure 4, TL as expected benefits the deep model (DenseNet121) most. For the shallow models, the benefit of TL is not so definite. Although in many cases shallow models with TL performs better than RI, there are also a few cases (e.g., CBR-LargeW with 10% data) RI wins over TL. It is also worth mentioning that in Figure 5, the best performing AUROC model and AUPRC model are not consistent. This disparity again highlights the need for reporting both metrics in MIC tasks.
+
+
+<div align="center">
+<figure><img src="figures/COVID-TLRI.png" width="864"></figure>
+
+<figcaption>Figure 4: TL v.s. RI on COVID. TL wins over RI on DenseNet121 for all subsampled set of data, and the performances of DensNet121 are close to those of shallow models. With 10% and 5% subsampled data only, TL outperforms RI on all but CBR-LargeT and CBR-LargeW</figcaption>
+</div>
+
 
 ### Truncated Transfer Learning
 
-As discussed earlier in this post that `MIC typically relies on ONLY low- and/or mid-level features`, it is natural to ask if we can have better ways of performing TL since we may not need high-level features. This motivates us to propose applying TL over truncated networks, which corresponds to different level of feature reusing, as is shown in Figure 6.
+As discussed earlier in this post that `MIC typically relies on ONLY low- and/or mid-level features`, it is natural to ask if we can have better ways of performing TL since we may not need high-level features. This motivates us to propose applying TL over truncated networks, which corresponds to different level of feature reusing, as is shown in Figure 5.
 
 
 
 <div align="center">
 <figure><img src="figures/dense-truncate.png" width="864"></figure>
 
-<figcaption>Figure 6: The illustration of different truncation level of the DenseNet121. T1 - T4 correspond to truncation that target at low - high level feature reuse. </figcaption>
+<figcaption>Figure 5: The illustration of different truncation level of the DenseNet121. T1 - T4 correspond to truncation that target at low - high level feature reuse. </figcaption>
 </div>
 
 
 
-Figure 7 summarizes the result on our COVID dataset and Figure 8 on CheXpert. Based on these experiments, we can conclude:
+Figure 6 summarizes the result on our COVID dataset and Figure 7 on CheXpert. Based on these experiments, we can conclude:
 
   1. The heavily truncated network (Dens-T1, Dens-T2) are the top two performant models when combined with TL on the COVID dataset. From COVID-19 medical studies, it is known that salient radiomic features for COVID-19 are opacities and consolidation in the lung area that only concern low-level textures. Thus this result is a strong confirmation that only a reasonable number of bottom layers are needed for efficient TL in this task.
   2. The mid-level truncation Dens-T3 is overall the best model on the CheXpert dataset, with Dens-F is almost comparable to Dens-T3 in most cases. This disparity can again be explained by feature hierarchy. In CheXpert, pathologies such as atelectasis and pneumothorax need relatively high-level features as they start to concern shapes, in contrast to the low-level texture features used in COVID-19.
   3. Another observation from Figure 8 is that on EC, LL, PO, Fr., the AUPRCs are very low (below 20%) although the corresponding AUROCs are all above 60% or even mostly 70%. These are rare diseases in CheXpert with high imbalance ratios `(positive : negative is at best less than 1:15)`. Even for the best models here, the AUROCs may be considered decent, but their actual performance, when precision is taken into account via AUPRC, is very poor.
 This reinforces our claim that AUPRC needs to be reported when evaluating classifiers on data with class imbalance.
+
+
+<div align="center">
+<figure><img src="figures/COVID-TRU.png" width="864"></figure>
+
+<figcaption>Figure 6: TL AUROC and AUPRC on COVID dataset. We include all shallow networks and different truncated version of DenseNet121. Dens-T1 and Dens-T2 are among the best performing models. </figcaption>
+</div>
+
+
+<div align="center">
+<figure><img src="figures/CheXpert-TRU.png" width="864"></figure>
+
+<figcaption>Figure 7: TL AUROC and AUPRC on CheXpert dataset. Here we demonstrate CBR-Small as CBR, which performs the best among all shallow models. Overall, Dens-T3 performs the best considering all pathologies but Dens-F is also close to Dens-T3.</figcaption>
+</div>
 
 
 ### Conclusions and Future Work
