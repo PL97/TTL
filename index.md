@@ -75,6 +75,15 @@ We find from our experiment that:
 As discussed earlier in this post that `MIC typically relies on ONLY low- and/or mid-level features`, it is natural to ask if we can have better ways of performing TL since we may not need high-level features. This motivates us to propose applying TL over truncated networks, which corresponds to different level of feature reusing, as is shown in Figure 6.
 
 
+
+<div align="center">
+<figure><img src="figures/dense-truncate.png" width="512"></figure>
+
+<figcaption>Figure 6: The illustration of different truncation level of the DenseNet121. T1 - T4 correspond to truncation that target at low - high level feature reuse. </figcaption>
+</div>
+
+
+
 Figure 7 summarizes the result on our COVID dataset and Figure 8 on CheXpert. Based on these experiments, we can conclude:
 
   1. The heavily truncated network (Dens-T1, Dens-T2) are the top two performant models when combined with TL on the COVID dataset. From COVID-19 medical studies, it is known that salient radiomic features for COVID-19 are opacities and consolidation in the lung area that only concern low-level textures. Thus this result is a strong confirmation that only a reasonable number of bottom layers are needed for efficient TL in this task.
