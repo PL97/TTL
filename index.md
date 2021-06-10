@@ -33,7 +33,7 @@ Follow this intuition, it is naturally questionable if the current TL practice i
 
    1. Deep models are not always favorable, but TL most often benefits the model performance, no matter the network is shallow or deep. This conclusion challenges part of the conclusion made in a prior work: [Transfusion:Understanding Transfer Learning for Medical Imaging](https://ai.googleblog.com/2019/12/understanding-transfer-learning-for.html).
 
-   2. Fine-tuning truncated version of DCNNs almost always yields the best performance in the target MIC task. This, if confirmed further in other medical imaging tasks such as segmentation, can be a new pattern to practice TL in medical image domain.
+   2. Fine-tuning truncated version of DCNNs almost always yields the best performance in the target MIC task. This, if confirmed further in other pathology dataset and classification, other type of medical images such as CT scans and other medical imaging tasks such as segmentation, can lead to a new pattern to practice TL in medical image domain.
 
    3. Point 2 is especially significant in the data-poor regime.
 
