@@ -95,7 +95,7 @@ As discussed earlier in this post that `MIC typically relies on ONLY low- and/or
 <div align="center">
 <figure><img src="figures/dense-truncate.png" width="864"></figure>
 
-<figcaption>Figure 5: The illustration of different truncation level of the DenseNet121. T1 - T4 correspond to truncation that target at low - high level feature reuse. </figcaption>
+<figcaption>Figure 5: The illustration of different truncation level of the DenseNet121. T1 - T4 （T4 is denoted by '-F' in the figure, representing 'Full transfer'） correspond to truncation that target at low - high level feature reuse. </figcaption>
 </div>
 
 
