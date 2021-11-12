@@ -143,7 +143,7 @@ The authors acknowledge the [Minnesota Supercomputing Institute (MSI)](https://w
 
 
 <div align="right"> 
- 
 First posted by Hegyue Liang, Wednesday, June 9, 2021.
+ 
 Updated on Friday, November 5, 2021.
 </div> 
