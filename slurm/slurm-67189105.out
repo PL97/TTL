@@ -1,0 +1,138 @@
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([0.0065, 0.0393, 0.0398, 0.0853, 0.1346, 0.3110, 0.3834],
+       device='cuda:0')
+../checkpoints/HAM/layerttl_resnet50_imagenet_17_1/
+Testing on HAM, load model from at ../checkpoints/HAM/layerttl_resnet50_imagenet_17_1/
+128
+../checkpoints/HAM/layerttl_resnet50_imagenet_17_1/best.pt
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+0.9849608903024571 0.9741718552060591
+0.7949592831694315 0.9565636434096823
+0.885797372784623 0.9734351922587218
+0.9104816439690754 0.9887241840474513
+0.8592432065925636 0.9838560957694532
+0.9343550899410286 0.9938747731397459
+0.8755652045862027 0.9956126881059975
+top one accuracy: 0.8942643391521197
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([0.0065, 0.0393, 0.0398, 0.0853, 0.1346, 0.3110, 0.3834],
+       device='cuda:0')
+../checkpoints/HAM/layerttl_resnet50_imagenet_17_2/
+Testing on HAM, load model from at ../checkpoints/HAM/layerttl_resnet50_imagenet_17_2/
+128
+../checkpoints/HAM/layerttl_resnet50_imagenet_17_2/best.pt
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+0.9856892684874379 0.9747339469735765
+0.8391878543505027 0.9618129476126487
+0.8617388693426801 0.9662057550292844
+0.9250729177263857 0.9944718385348076
+0.8430935821403946 0.9921077718911654
+0.9031408855189835 0.9958816138489459
+0.762494287134985 0.9739393673496248
+top one accuracy: 0.9007481296758105
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([0.0065, 0.0393, 0.0398, 0.0853, 0.1346, 0.3110, 0.3834],
+       device='cuda:0')
+../checkpoints/HAM/layerttl_resnet50_imagenet_17_3/
+Testing on HAM, load model from at ../checkpoints/HAM/layerttl_resnet50_imagenet_17_3/
+128
+../checkpoints/HAM/layerttl_resnet50_imagenet_17_3/best.pt
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+0.9824791566099089 0.9706746448882779
+0.819808543629327 0.9577086258700609
+0.8786510506308334 0.9746956964604023
+0.9187328117791299 0.9948546752013722
+0.8509574999848272 0.9798005844937253
+0.9662096442221272 0.9914665642887059
+0.8321856328732744 0.9957662440222876
+top one accuracy: 0.8927680798004988

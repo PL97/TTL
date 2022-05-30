@@ -1,0 +1,16 @@
+#!/bin/bash -l
+#SBATCH --time=24:00:00
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=64
+#SBATCH --mem=80g
+#SBATCH --tmp=80g
+#SBATCH --mail-type=NONE  
+#SBATCH --mail-user=peng0347@umn.edu 
+#SBATCH --gres=gpu:a100:2
+#SBATCH -p a100-4
+
+module load parallel
+
+cd /home/jusun/peng0347/TL/src
+export PATH=/home/jusun/peng0347/anaconda3//bin:$PATH
+sh BIMCV_B.sh 1 

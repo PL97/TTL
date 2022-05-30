@@ -1,0 +1,965 @@
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/resnet50_imagenet_-1_2/
+working folder already exists
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/resnet50_imagenet_1_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/resnet50_imagenet_1_2/
+pooling!! 256
+training with  resnet50
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+epoch0: train: loss:0.691612938181122 	 acc:0.4027504911591356 | test: loss:0.6919934569267018 	 acc:0.4027504911591356 	 lr:0.0001
+epoch1: train: loss:0.69094988405119 	 acc:0.40520628683693516 | test: loss:0.6911249023757889 	 acc:0.4027504911591356 	 lr:0.0001
+epoch2: train: loss:0.6893086836239678 	 acc:0.4194499017681729 | test: loss:0.6896227516219283 	 acc:0.4027504911591356 	 lr:0.0001
+epoch3: train: loss:0.6890453398813199 	 acc:0.43762278978388996 | test: loss:0.68861139125112 	 acc:0.40471512770137524 	 lr:0.0001
+epoch4: train: loss:0.686185369322951 	 acc:0.5388015717092338 | test: loss:0.6860896651075022 	 acc:0.5127701375245579 	 lr:0.0001
+epoch5: train: loss:0.6849690920477531 	 acc:0.47396856581532415 | test: loss:0.6856562723579481 	 acc:0.41846758349705304 	 lr:0.0001
+epoch6: train: loss:0.682105752831592 	 acc:0.47986247544204325 | test: loss:0.6841896726715073 	 acc:0.42829076620825146 	 lr:0.0001
+epoch7: train: loss:0.6816699850301612 	 acc:0.5515717092337917 | test: loss:0.6812363942620328 	 acc:0.5383104125736738 	 lr:0.0001
+epoch8: train: loss:0.6830150770766328 	 acc:0.48722986247544203 | test: loss:0.683683045954976 	 acc:0.43222003929273084 	 lr:0.0001
+epoch9: train: loss:0.6738381049722023 	 acc:0.5672888015717092 | test: loss:0.6743733932086667 	 acc:0.5206286836935167 	 lr:0.0001
+epoch10: train: loss:0.6731364122776714 	 acc:0.6277013752455796 | test: loss:0.6743290939593362 	 acc:0.650294695481336 	 lr:0.0001
+epoch11: train: loss:0.6704433495965594 	 acc:0.5776031434184676 | test: loss:0.6736969087119187 	 acc:0.5265225933202358 	 lr:0.0001
+epoch12: train: loss:0.6722716669202553 	 acc:0.5505893909626719 | test: loss:0.6729089437392933 	 acc:0.518664047151277 	 lr:0.0001
+epoch13: train: loss:0.6731021064672114 	 acc:0.6389980353634578 | test: loss:0.6715412822594109 	 acc:0.6581532416502947 	 lr:0.0001
+epoch14: train: loss:0.6707463801961048 	 acc:0.6355599214145383 | test: loss:0.667685554163395 	 acc:0.6797642436149313 	 lr:0.0001
+epoch15: train: loss:0.6682827295863558 	 acc:0.6434184675834971 | test: loss:0.664299132898889 	 acc:0.6699410609037328 	 lr:0.0001
+epoch16: train: loss:0.6650252521389359 	 acc:0.6547151277013753 | test: loss:0.6668299913172169 	 acc:0.6679764243614931 	 lr:0.0001
+epoch17: train: loss:0.6628059429831964 	 acc:0.6213163064833006 | test: loss:0.660260134455263 	 acc:0.6345776031434185 	 lr:0.0001
+epoch18: train: loss:0.6674877340760821 	 acc:0.6463654223968566 | test: loss:0.6662551429276382 	 acc:0.6758349705304518 	 lr:0.0001
+epoch19: train: loss:0.6705023574922783 	 acc:0.631139489194499 | test: loss:0.6671476907486531 	 acc:0.6660117878192534 	 lr:0.0001
+epoch20: train: loss:0.6619082321586683 	 acc:0.637524557956778 | test: loss:0.665596403635321 	 acc:0.650294695481336 	 lr:0.0001
+epoch21: train: loss:0.6684254439500086 	 acc:0.6478388998035364 | test: loss:0.666803961769771 	 acc:0.68762278978389 	 lr:0.0001
+epoch22: train: loss:0.6603351955563708 	 acc:0.649803536345776 | test: loss:0.655231301348898 	 acc:0.6601178781925344 	 lr:0.0001
+epoch23: train: loss:0.652574240810042 	 acc:0.6556974459724951 | test: loss:0.6545686926729318 	 acc:0.6738703339882122 	 lr:0.0001
+epoch24: train: loss:0.6591149423351925 	 acc:0.6512770137524558 | test: loss:0.6598805947950172 	 acc:0.6581532416502947 	 lr:0.0001
+epoch25: train: loss:0.6515546485576742 	 acc:0.6478388998035364 | test: loss:0.6561326948973425 	 acc:0.6424361493123772 	 lr:0.0001
+epoch26: train: loss:0.6539102248218064 	 acc:0.6370333988212181 | test: loss:0.656918464568837 	 acc:0.6542239685658153 	 lr:0.0001
+epoch27: train: loss:0.6506131469383689 	 acc:0.6537328094302554 | test: loss:0.6511523743509544 	 acc:0.693516699410609 	 lr:0.0001
+epoch28: train: loss:0.6534863246681648 	 acc:0.6660117878192534 | test: loss:0.6566330312745744 	 acc:0.6660117878192534 	 lr:0.0001
+epoch29: train: loss:0.6491226541035771 	 acc:0.6669941060903732 | test: loss:0.6469877822460032 	 acc:0.6915520628683693 	 lr:0.0001
+epoch30: train: loss:0.6482240410122749 	 acc:0.6846758349705304 | test: loss:0.6462569359711907 	 acc:0.6836935166994106 	 lr:0.0001
+epoch31: train: loss:0.6498721816919173 	 acc:0.6448919449901768 | test: loss:0.650222316589243 	 acc:0.6679764243614931 	 lr:0.0001
+epoch32: train: loss:0.6510161614605392 	 acc:0.6321218074656189 | test: loss:0.6507852720371163 	 acc:0.6286836935166994 	 lr:0.0001
+epoch33: train: loss:0.6495143809815053 	 acc:0.6601178781925344 | test: loss:0.6422058067527876 	 acc:0.6836935166994106 	 lr:0.0001
+epoch34: train: loss:0.6512897741818007 	 acc:0.6164047151277013 | test: loss:0.6509697174979099 	 acc:0.5992141453831041 	 lr:0.0001
+epoch35: train: loss:0.6515089837881811 	 acc:0.6483300589390962 | test: loss:0.6610632446285315 	 acc:0.6542239685658153 	 lr:0.0001
+epoch36: train: loss:0.6491388697286954 	 acc:0.5771119842829077 | test: loss:0.65546035801732 	 acc:0.5422396856581533 	 lr:0.0001
+epoch37: train: loss:0.6527235301866513 	 acc:0.668467583497053 | test: loss:0.6520218169993642 	 acc:0.6817288801571709 	 lr:0.0001
+epoch38: train: loss:0.6371950925216225 	 acc:0.68762278978389 | test: loss:0.6362734223864167 	 acc:0.7013752455795678 	 lr:0.0001
+epoch39: train: loss:0.6436041623998017 	 acc:0.6979371316306483 | test: loss:0.63818886214483 	 acc:0.6895874263261297 	 lr:0.0001
+epoch40: train: loss:0.6519787555124998 	 acc:0.6296660117878192 | test: loss:0.6536338722776102 	 acc:0.6011787819253438 	 lr:0.0001
+epoch41: train: loss:0.6577851398754682 	 acc:0.6522593320235757 | test: loss:0.6574608393174491 	 acc:0.6620825147347741 	 lr:0.0001
+epoch42: train: loss:0.6385716581625648 	 acc:0.6532416502946955 | test: loss:0.6361386924689317 	 acc:0.618860510805501 	 lr:0.0001
+epoch43: train: loss:0.6457826663796701 	 acc:0.6615913555992141 | test: loss:0.6409639789922298 	 acc:0.6679764243614931 	 lr:0.0001
+epoch44: train: loss:0.6457454296366874 	 acc:0.6719056974459725 | test: loss:0.655682787679736 	 acc:0.6699410609037328 	 lr:0.0001
+epoch45: train: loss:0.6411439242437921 	 acc:0.6473477406679764 | test: loss:0.6403934438008456 	 acc:0.6404715127701375 	 lr:0.0001
+epoch46: train: loss:0.6506711540849832 	 acc:0.5898821218074656 | test: loss:0.6555343908504794 	 acc:0.5343811394891945 	 lr:0.0001
+epoch47: train: loss:0.6528407755675625 	 acc:0.581532416502947 | test: loss:0.6489913450711369 	 acc:0.5893909626719057 	 lr:0.0001
+epoch48: train: loss:0.6397487206168634 	 acc:0.6777996070726916 | test: loss:0.6406465055666176 	 acc:0.6915520628683693 	 lr:0.0001
+epoch49: train: loss:0.6407564506081093 	 acc:0.6841846758349706 | test: loss:0.6352870485403215 	 acc:0.7033398821218074 	 lr:5e-05
+epoch50: train: loss:0.6368257272220079 	 acc:0.6768172888015717 | test: loss:0.6338968602519607 	 acc:0.6719056974459725 	 lr:5e-05
+epoch51: train: loss:0.6361220994257973 	 acc:0.6674852652259332 | test: loss:0.6321979206062721 	 acc:0.6620825147347741 	 lr:5e-05
+epoch52: train: loss:0.6421631558236532 	 acc:0.6738703339882122 | test: loss:0.6338371537289123 	 acc:0.7013752455795678 	 lr:5e-05
+epoch53: train: loss:0.6376917284926169 	 acc:0.6719056974459725 | test: loss:0.6330157069888237 	 acc:0.6817288801571709 	 lr:5e-05
+epoch54: train: loss:0.6341262483175236 	 acc:0.6743614931237721 | test: loss:0.6317553944109934 	 acc:0.7053045186640472 	 lr:5e-05
+epoch55: train: loss:0.6333957281702862 	 acc:0.6827111984282908 | test: loss:0.6311263089564085 	 acc:0.7033398821218074 	 lr:5e-05
+epoch56: train: loss:0.6294156164223647 	 acc:0.6723968565815324 | test: loss:0.6314225015331111 	 acc:0.6895874263261297 	 lr:5e-05
+epoch57: train: loss:0.6340855868251478 	 acc:0.6468565815324165 | test: loss:0.6352339868227016 	 acc:0.650294695481336 	 lr:5e-05
+epoch58: train: loss:0.6259410070998261 	 acc:0.6733791748526523 | test: loss:0.6265318075191295 	 acc:0.68762278978389 	 lr:5e-05
+epoch59: train: loss:0.6288701163528008 	 acc:0.706286836935167 | test: loss:0.6297885692424062 	 acc:0.7111984282907662 	 lr:5e-05
+epoch60: train: loss:0.6273880448697358 	 acc:0.6601178781925344 | test: loss:0.6349215455982681 	 acc:0.6424361493123772 	 lr:5e-05
+epoch61: train: loss:0.6274926875569732 	 acc:0.6954813359528488 | test: loss:0.624822605335408 	 acc:0.6797642436149313 	 lr:5e-05
+epoch62: train: loss:0.6379400129870956 	 acc:0.656188605108055 | test: loss:0.6321877270410009 	 acc:0.6719056974459725 	 lr:5e-05
+epoch63: train: loss:0.6338944088499298 	 acc:0.6910609037328095 | test: loss:0.6315314517976727 	 acc:0.7092337917485265 	 lr:5e-05
+epoch64: train: loss:0.6396984893587109 	 acc:0.6959724950884086 | test: loss:0.6357121137364206 	 acc:0.7013752455795678 	 lr:5e-05
+epoch65: train: loss:0.6257902792488428 	 acc:0.7033398821218074 | test: loss:0.6264822063839506 	 acc:0.6954813359528488 	 lr:5e-05
+epoch66: train: loss:0.6251945658376502 	 acc:0.6866404715127702 | test: loss:0.6259890110881483 	 acc:0.6719056974459725 	 lr:5e-05
+epoch67: train: loss:0.6248446200591876 	 acc:0.6900785854616895 | test: loss:0.6249888964392581 	 acc:0.6856581532416502 	 lr:5e-05
+epoch68: train: loss:0.6311281308209732 	 acc:0.6458742632612967 | test: loss:0.6285963331318088 	 acc:0.6581532416502947 	 lr:2.5e-05
+epoch69: train: loss:0.6244131518721815 	 acc:0.6949901768172888 | test: loss:0.6208079700854063 	 acc:0.693516699410609 	 lr:2.5e-05
+epoch70: train: loss:0.6322718630371019 	 acc:0.7057956777996071 | test: loss:0.6227687808057414 	 acc:0.7053045186640472 	 lr:2.5e-05
+epoch71: train: loss:0.626963927258677 	 acc:0.6797642436149313 | test: loss:0.626526244965424 	 acc:0.6974459724950884 	 lr:2.5e-05
+epoch72: train: loss:0.6270771558251971 	 acc:0.6900785854616895 | test: loss:0.6240225063091646 	 acc:0.7033398821218074 	 lr:2.5e-05
+epoch73: train: loss:0.6276897928569546 	 acc:0.6620825147347741 | test: loss:0.6262889668374727 	 acc:0.6620825147347741 	 lr:2.5e-05
+epoch74: train: loss:0.6258065186455583 	 acc:0.6959724950884086 | test: loss:0.6215397743672894 	 acc:0.6797642436149313 	 lr:2.5e-05
+epoch75: train: loss:0.6226416184532151 	 acc:0.6920432220039293 | test: loss:0.6229111987855908 	 acc:0.7013752455795678 	 lr:2.5e-05
+epoch76: train: loss:0.6239519321848227 	 acc:0.6905697445972495 | test: loss:0.6238909729103208 	 acc:0.68762278978389 	 lr:1.25e-05
+epoch77: train: loss:0.6269671891199348 	 acc:0.6949901768172888 | test: loss:0.6211460873279684 	 acc:0.7013752455795678 	 lr:1.25e-05
+epoch78: train: loss:0.6245829407967378 	 acc:0.7023575638506876 | test: loss:0.6217941734317712 	 acc:0.7033398821218074 	 lr:1.25e-05
+epoch79: train: loss:0.6263472341835382 	 acc:0.6959724950884086 | test: loss:0.6214782836863475 	 acc:0.6974459724950884 	 lr:1.25e-05
+epoch80: train: loss:0.6223007336346714 	 acc:0.7043222003929273 | test: loss:0.6205296367699599 	 acc:0.7053045186640472 	 lr:1.25e-05
+epoch81: train: loss:0.624151963381964 	 acc:0.7033398821218074 | test: loss:0.6214690581988727 	 acc:0.7072691552062869 	 lr:1.25e-05
+epoch82: train: loss:0.6225760239514948 	 acc:0.6954813359528488 | test: loss:0.6202414053362338 	 acc:0.7013752455795678 	 lr:1.25e-05
+epoch83: train: loss:0.6205876154609186 	 acc:0.7072691552062869 | test: loss:0.6197106347571187 	 acc:0.7053045186640472 	 lr:1.25e-05
+epoch84: train: loss:0.6272495239094807 	 acc:0.712180746561886 | test: loss:0.6218462011434709 	 acc:0.7151277013752456 	 lr:1.25e-05
+epoch85: train: loss:0.6269575816474869 	 acc:0.6925343811394892 | test: loss:0.6227708346483047 	 acc:0.7072691552062869 	 lr:1.25e-05
+epoch86: train: loss:0.6246847246859537 	 acc:0.6900785854616895 | test: loss:0.62251824644085 	 acc:0.6994106090373281 	 lr:1.25e-05
+epoch87: train: loss:0.6241531190563044 	 acc:0.668467583497053 | test: loss:0.6235676264950241 	 acc:0.6856581532416502 	 lr:1.25e-05
+epoch88: train: loss:0.6227257229490224 	 acc:0.7057956777996071 | test: loss:0.6197641330289935 	 acc:0.6994106090373281 	 lr:1.25e-05
+epoch89: train: loss:0.6231993283410437 	 acc:0.6920432220039293 | test: loss:0.62012837174365 	 acc:0.7033398821218074 	 lr:1.25e-05
+epoch90: train: loss:0.6237917793054711 	 acc:0.7023575638506876 | test: loss:0.6205920684782602 	 acc:0.7092337917485265 	 lr:6.25e-06
+epoch91: train: loss:0.6238898975675842 	 acc:0.6974459724950884 | test: loss:0.6202995071008304 	 acc:0.7033398821218074 	 lr:6.25e-06
+epoch92: train: loss:0.6178973755105773 	 acc:0.7077603143418467 | test: loss:0.6203774318011196 	 acc:0.7033398821218074 	 lr:6.25e-06
+epoch93: train: loss:0.6238819568002623 	 acc:0.6954813359528488 | test: loss:0.6207246488812864 	 acc:0.7053045186640472 	 lr:6.25e-06
+epoch94: train: loss:0.6219512540371338 	 acc:0.6832023575638507 | test: loss:0.6195682254427777 	 acc:0.7053045186640472 	 lr:6.25e-06
+epoch95: train: loss:0.6235995355898364 	 acc:0.699901768172888 | test: loss:0.620124309962297 	 acc:0.7053045186640472 	 lr:6.25e-06
+epoch96: train: loss:0.6242036251515911 	 acc:0.6964636542239686 | test: loss:0.6200295088333325 	 acc:0.7013752455795678 	 lr:6.25e-06
+epoch97: train: loss:0.6214409832401688 	 acc:0.693516699410609 | test: loss:0.620090182614467 	 acc:0.7053045186640472 	 lr:6.25e-06
+epoch98: train: loss:0.6244469683156266 	 acc:0.7003929273084479 | test: loss:0.6194442844344028 	 acc:0.7072691552062869 	 lr:6.25e-06
+epoch99: train: loss:0.6217060698038936 	 acc:0.7043222003929273 | test: loss:0.6187830257041047 	 acc:0.7053045186640472 	 lr:6.25e-06
+epoch100: train: loss:0.6248103675298934 	 acc:0.6984282907662083 | test: loss:0.6186796874100661 	 acc:0.7072691552062869 	 lr:6.25e-06
+epoch101: train: loss:0.6224836059544082 	 acc:0.7077603143418467 | test: loss:0.6183394615214559 	 acc:0.7033398821218074 	 lr:6.25e-06
+epoch102: train: loss:0.621454196032466 	 acc:0.7107072691552063 | test: loss:0.6185561126950682 	 acc:0.7033398821218074 	 lr:6.25e-06
+epoch103: train: loss:0.6237097573420857 	 acc:0.6984282907662083 | test: loss:0.6195774677928633 	 acc:0.7013752455795678 	 lr:6.25e-06
+epoch104: train: loss:0.6258435878163471 	 acc:0.6841846758349706 | test: loss:0.6203652403677845 	 acc:0.7013752455795678 	 lr:6.25e-06
+epoch105: train: loss:0.624043899107073 	 acc:0.6920432220039293 | test: loss:0.620861118458109 	 acc:0.7013752455795678 	 lr:6.25e-06
+epoch106: train: loss:0.6230865897270458 	 acc:0.7067779960707269 | test: loss:0.6198790060513615 	 acc:0.7053045186640472 	 lr:6.25e-06
+epoch107: train: loss:0.6226888309527474 	 acc:0.6964636542239686 | test: loss:0.6195338062781014 	 acc:0.7072691552062869 	 lr:6.25e-06
+epoch108: train: loss:0.6219970124877975 	 acc:0.7008840864440079 | test: loss:0.6194438297294212 	 acc:0.7053045186640472 	 lr:3.125e-06
+epoch109: train: loss:0.6228579703154873 	 acc:0.7023575638506876 | test: loss:0.619760228632007 	 acc:0.7072691552062869 	 lr:3.125e-06
+epoch110: train: loss:0.6207479178788385 	 acc:0.6984282907662083 | test: loss:0.6197310978865108 	 acc:0.7092337917485265 	 lr:3.125e-06
+epoch111: train: loss:0.6244318651544087 	 acc:0.6920432220039293 | test: loss:0.6193932470497776 	 acc:0.7072691552062869 	 lr:3.125e-06
+epoch112: train: loss:0.622923518679231 	 acc:0.699901768172888 | test: loss:0.6194966833577409 	 acc:0.7072691552062869 	 lr:3.125e-06
+epoch113: train: loss:0.6215026891536001 	 acc:0.694007858546169 | test: loss:0.6193667433585072 	 acc:0.7053045186640472 	 lr:3.125e-06
+epoch114: train: loss:0.6212751504714457 	 acc:0.7003929273084479 | test: loss:0.6194223410254143 	 acc:0.7072691552062869 	 lr:1.5625e-06
+epoch115: train: loss:0.6210207165107278 	 acc:0.7092337917485265 | test: loss:0.6195046589041974 	 acc:0.7072691552062869 	 lr:1.5625e-06
+epoch116: train: loss:0.6260667586139237 	 acc:0.6989194499017681 | test: loss:0.6197895736731809 	 acc:0.7092337917485265 	 lr:1.5625e-06
+epoch117: train: loss:0.6212504650145945 	 acc:0.7077603143418467 | test: loss:0.6196044122540412 	 acc:0.7072691552062869 	 lr:1.5625e-06
+epoch118: train: loss:0.6223926884954711 	 acc:0.7008840864440079 | test: loss:0.619306378842337 	 acc:0.7053045186640472 	 lr:1.5625e-06
+epoch119: train: loss:0.6218167083202505 	 acc:0.7028487229862476 | test: loss:0.619077625818009 	 acc:0.7072691552062869 	 lr:1.5625e-06
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/resnet50_imagenet_2_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/resnet50_imagenet_2_2/
+pooling!! 512
+training with  resnet50
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+epoch0: train: loss:0.6913154369955681 	 acc:0.4037328094302554 | test: loss:0.6905643620284929 	 acc:0.40471512770137524 	 lr:0.0001
+epoch1: train: loss:0.688431484525939 	 acc:0.4165029469548134 | test: loss:0.689660079118545 	 acc:0.40471512770137524 	 lr:0.0001
+epoch2: train: loss:0.6880237284484219 	 acc:0.4336935166994106 | test: loss:0.6911115957852196 	 acc:0.40471512770137524 	 lr:0.0001
+epoch3: train: loss:0.6714376603456284 	 acc:0.5496070726915521 | test: loss:0.6727342979144488 	 acc:0.4931237721021611 	 lr:0.0001
+epoch4: train: loss:0.6765398212172428 	 acc:0.6419449901768173 | test: loss:0.668375403801444 	 acc:0.6620825147347741 	 lr:0.0001
+epoch5: train: loss:0.6622906925636096 	 acc:0.6601178781925344 | test: loss:0.6572056413867853 	 acc:0.6797642436149313 	 lr:0.0001
+epoch6: train: loss:0.683946850843186 	 acc:0.6232809430255403 | test: loss:0.6745412184587865 	 acc:0.6286836935166994 	 lr:0.0001
+epoch7: train: loss:0.6438275077956599 	 acc:0.6733791748526523 | test: loss:0.6449283648333521 	 acc:0.6954813359528488 	 lr:0.0001
+epoch8: train: loss:0.6895505066939094 	 acc:0.6159135559921415 | test: loss:0.6896459003562777 	 acc:0.6149312377210217 	 lr:0.0001
+epoch9: train: loss:0.6321135854205823 	 acc:0.6522593320235757 | test: loss:0.6270156521459928 	 acc:0.6817288801571709 	 lr:0.0001
+epoch10: train: loss:0.7049938333760545 	 acc:0.612475442043222 | test: loss:0.7147196829904507 	 acc:0.6090373280943026 	 lr:0.0001
+epoch11: train: loss:0.645386192676829 	 acc:0.6615913555992141 | test: loss:0.6469555212612939 	 acc:0.6719056974459725 	 lr:0.0001
+epoch12: train: loss:0.647775110537973 	 acc:0.5471512770137524 | test: loss:0.6519826472625283 	 acc:0.5265225933202358 	 lr:0.0001
+epoch13: train: loss:0.620749687867455 	 acc:0.6635559921414538 | test: loss:0.6115921798998339 	 acc:0.6915520628683693 	 lr:0.0001
+epoch14: train: loss:0.622138156403727 	 acc:0.7077603143418467 | test: loss:0.6187034648621714 	 acc:0.7229862475442044 	 lr:0.0001
+epoch15: train: loss:0.6136983350826856 	 acc:0.6832023575638507 | test: loss:0.6003618235672387 	 acc:0.7190569744597249 	 lr:0.0001
+epoch16: train: loss:0.6124746976292204 	 acc:0.7057956777996071 | test: loss:0.6089718839508611 	 acc:0.7269155206286837 	 lr:0.0001
+epoch17: train: loss:0.6039256733386597 	 acc:0.6743614931237721 | test: loss:0.5921044294632722 	 acc:0.7013752455795678 	 lr:0.0001
+epoch18: train: loss:0.6079254235874693 	 acc:0.7190569744597249 | test: loss:0.6137678031837074 	 acc:0.7210216110019646 	 lr:0.0001
+epoch19: train: loss:0.6269516333615616 	 acc:0.600196463654224 | test: loss:0.6272869060924807 	 acc:0.5697445972495089 	 lr:0.0001
+epoch20: train: loss:0.6019827430749455 	 acc:0.7274066797642437 | test: loss:0.5910461718300705 	 acc:0.7387033398821218 	 lr:0.0001
+epoch21: train: loss:0.5978286816703782 	 acc:0.7288801571709234 | test: loss:0.5954049898271242 	 acc:0.7387033398821218 	 lr:0.0001
+epoch22: train: loss:0.5992498793630094 	 acc:0.7190569744597249 | test: loss:0.5876375443808924 	 acc:0.7328094302554028 	 lr:0.0001
+epoch23: train: loss:0.639654698915238 	 acc:0.5722003929273084 | test: loss:0.6568057427003482 	 acc:0.5304518664047151 	 lr:0.0001
+epoch24: train: loss:0.5942011740212356 	 acc:0.6994106090373281 | test: loss:0.5889361515963242 	 acc:0.7170923379174853 	 lr:0.0001
+epoch25: train: loss:0.582440894455713 	 acc:0.7396856581532416 | test: loss:0.5790930767424682 	 acc:0.7426326129666012 	 lr:0.0001
+epoch26: train: loss:0.6069672206061762 	 acc:0.6424361493123772 | test: loss:0.6017554231383243 	 acc:0.6444007858546169 	 lr:0.0001
+epoch27: train: loss:0.5877067978349322 	 acc:0.7298624754420432 | test: loss:0.583144888428199 	 acc:0.7406679764243614 	 lr:0.0001
+epoch28: train: loss:0.5814019165245161 	 acc:0.7396856581532416 | test: loss:0.5644537142545629 	 acc:0.7701375245579568 	 lr:0.0001
+epoch29: train: loss:0.6039472636867366 	 acc:0.7141453831041258 | test: loss:0.6129429802913329 	 acc:0.724950884086444 	 lr:0.0001
+epoch30: train: loss:0.5741859093630478 	 acc:0.7583497053045186 | test: loss:0.5689754475544853 	 acc:0.730844793713163 	 lr:0.0001
+epoch31: train: loss:0.570594314039339 	 acc:0.7372298624754421 | test: loss:0.5701837853504773 	 acc:0.7445972495088409 	 lr:0.0001
+epoch32: train: loss:0.6517192861888638 	 acc:0.5358546168958742 | test: loss:0.6781162003637062 	 acc:0.49705304518664045 	 lr:0.0001
+epoch33: train: loss:0.6282028133133774 	 acc:0.68762278978389 | test: loss:0.6430607514203415 	 acc:0.6699410609037328 	 lr:0.0001
+epoch34: train: loss:0.5786822753242987 	 acc:0.7170923379174853 | test: loss:0.5647716963689313 	 acc:0.730844793713163 	 lr:0.0001
+epoch35: train: loss:0.5712623778869689 	 acc:0.7583497053045186 | test: loss:0.5630751598794709 	 acc:0.7642436149312377 	 lr:5e-05
+epoch36: train: loss:0.5671902110393952 	 acc:0.7647347740667977 | test: loss:0.5658420804441561 	 acc:0.7328094302554028 	 lr:5e-05
+epoch37: train: loss:0.5647709718621784 	 acc:0.7642436149312377 | test: loss:0.5574961941696571 	 acc:0.7662082514734774 	 lr:5e-05
+epoch38: train: loss:0.5672449481276491 	 acc:0.7401768172888016 | test: loss:0.5593666618137322 	 acc:0.724950884086444 	 lr:5e-05
+epoch39: train: loss:0.5724610317432576 	 acc:0.7642436149312377 | test: loss:0.5741033376082925 	 acc:0.7662082514734774 	 lr:5e-05
+epoch40: train: loss:0.5599276781784762 	 acc:0.7642436149312377 | test: loss:0.5559589434232131 	 acc:0.7524557956777996 	 lr:5e-05
+epoch41: train: loss:0.559369275986797 	 acc:0.7549115913555993 | test: loss:0.5570623737655594 	 acc:0.7387033398821218 	 lr:5e-05
+epoch42: train: loss:0.5595790071665421 	 acc:0.7770137524557956 | test: loss:0.5579029849798132 	 acc:0.7583497053045186 	 lr:5e-05
+epoch43: train: loss:0.5611833192276345 	 acc:0.7848722986247544 | test: loss:0.5676447301810289 	 acc:0.7642436149312377 	 lr:5e-05
+epoch44: train: loss:0.5709878788247323 	 acc:0.762278978388998 | test: loss:0.5684676954928924 	 acc:0.762278978388998 	 lr:5e-05
+epoch45: train: loss:0.5608665412676124 	 acc:0.7735756385068763 | test: loss:0.563252224903444 	 acc:0.7445972495088409 	 lr:5e-05
+epoch46: train: loss:0.5585353166040596 	 acc:0.756385068762279 | test: loss:0.5587522217707456 	 acc:0.7465618860510805 	 lr:5e-05
+epoch47: train: loss:0.5548627628324543 	 acc:0.7706286836935167 | test: loss:0.5535844640553818 	 acc:0.7819253438113949 	 lr:2.5e-05
+epoch48: train: loss:0.5620576748679336 	 acc:0.7323182711198428 | test: loss:0.5652753700207633 	 acc:0.7053045186640472 	 lr:2.5e-05
+epoch49: train: loss:0.5538713396883667 	 acc:0.7740667976424361 | test: loss:0.5597220365331309 	 acc:0.7465618860510805 	 lr:2.5e-05
+epoch50: train: loss:0.5493967342236187 	 acc:0.7745579567779961 | test: loss:0.5529171442704491 	 acc:0.756385068762279 	 lr:2.5e-05
+epoch51: train: loss:0.549349439987265 	 acc:0.787819253438114 | test: loss:0.5500423737265506 	 acc:0.7701375245579568 	 lr:2.5e-05
+epoch52: train: loss:0.5515225253311262 	 acc:0.7725933202357563 | test: loss:0.5531876112951043 	 acc:0.7603143418467584 	 lr:2.5e-05
+epoch53: train: loss:0.5475633671335246 	 acc:0.7701375245579568 | test: loss:0.554155560982485 	 acc:0.7465618860510805 	 lr:2.5e-05
+epoch54: train: loss:0.5456743440599947 	 acc:0.7951866404715128 | test: loss:0.550924447290087 	 acc:0.7917485265225933 	 lr:2.5e-05
+epoch55: train: loss:0.5483287766078132 	 acc:0.7770137524557956 | test: loss:0.5509705353813696 	 acc:0.7465618860510805 	 lr:2.5e-05
+epoch56: train: loss:0.5552940243353778 	 acc:0.7819253438113949 | test: loss:0.5577942672787575 	 acc:0.7721021611001965 	 lr:2.5e-05
+epoch57: train: loss:0.5486074502201118 	 acc:0.7829076620825147 | test: loss:0.5518989963475286 	 acc:0.768172888015717 	 lr:2.5e-05
+epoch58: train: loss:0.5474620928698767 	 acc:0.7730844793713163 | test: loss:0.5497376786468071 	 acc:0.7524557956777996 	 lr:1.25e-05
+epoch59: train: loss:0.5454825949809406 	 acc:0.7779960707269156 | test: loss:0.5553189761980578 	 acc:0.7367387033398821 	 lr:1.25e-05
+epoch60: train: loss:0.5482854726038185 	 acc:0.7833988212180747 | test: loss:0.5534077319508686 	 acc:0.768172888015717 	 lr:1.25e-05
+epoch61: train: loss:0.5409420981622632 	 acc:0.7986247544204322 | test: loss:0.5478965932821712 	 acc:0.7740667976424361 	 lr:1.25e-05
+epoch62: train: loss:0.5476985334881631 	 acc:0.7662082514734774 | test: loss:0.5476569595411859 	 acc:0.7544204322200393 	 lr:1.25e-05
+epoch63: train: loss:0.5410338932966671 	 acc:0.7892927308447937 | test: loss:0.546500651096314 	 acc:0.7662082514734774 	 lr:1.25e-05
+epoch64: train: loss:0.5442564912535587 	 acc:0.793713163064833 | test: loss:0.5482965355303526 	 acc:0.762278978388998 	 lr:1.25e-05
+epoch65: train: loss:0.545238161719384 	 acc:0.7858546168958742 | test: loss:0.5465828560892866 	 acc:0.7603143418467584 	 lr:1.25e-05
+epoch66: train: loss:0.5423684538230447 	 acc:0.7956777996070727 | test: loss:0.5443534841706101 	 acc:0.7740667976424361 	 lr:1.25e-05
+epoch67: train: loss:0.5408871355365911 	 acc:0.7775049115913556 | test: loss:0.5435068062808518 	 acc:0.7740667976424361 	 lr:1.25e-05
+epoch68: train: loss:0.5426151826245845 	 acc:0.7770137524557956 | test: loss:0.5508470432229032 	 acc:0.7485265225933202 	 lr:1.25e-05
+epoch69: train: loss:0.5387786205250529 	 acc:0.7883104125736738 | test: loss:0.5480366373811583 	 acc:0.7662082514734774 	 lr:1.25e-05
+epoch70: train: loss:0.5390692250199308 	 acc:0.7971512770137524 | test: loss:0.5475575358319611 	 acc:0.768172888015717 	 lr:1.25e-05
+epoch71: train: loss:0.5415345904635072 	 acc:0.8030451866404715 | test: loss:0.5511125724301591 	 acc:0.7838899803536346 	 lr:1.25e-05
+epoch72: train: loss:0.5422633053745877 	 acc:0.7897838899803536 | test: loss:0.545049909407123 	 acc:0.7799607072691552 	 lr:1.25e-05
+epoch73: train: loss:0.5377370328706468 	 acc:0.8010805500982319 | test: loss:0.5447891926015993 	 acc:0.7662082514734774 	 lr:1.25e-05
+epoch74: train: loss:0.536501569925919 	 acc:0.7986247544204322 | test: loss:0.5468623710755983 	 acc:0.7642436149312377 	 lr:6.25e-06
+epoch75: train: loss:0.5400183194981109 	 acc:0.8005893909626719 | test: loss:0.5466817104511973 	 acc:0.768172888015717 	 lr:6.25e-06
+epoch76: train: loss:0.5350184663105573 	 acc:0.8113948919449901 | test: loss:0.5475502346728311 	 acc:0.7642436149312377 	 lr:6.25e-06
+epoch77: train: loss:0.5405594126883096 	 acc:0.7824165029469549 | test: loss:0.5478445528064121 	 acc:0.7583497053045186 	 lr:6.25e-06
+epoch78: train: loss:0.5369909208977854 	 acc:0.7996070726915521 | test: loss:0.5475494885023076 	 acc:0.7760314341846758 	 lr:6.25e-06
+epoch79: train: loss:0.5434068828996834 	 acc:0.7883104125736738 | test: loss:0.5459772223105365 	 acc:0.7721021611001965 	 lr:6.25e-06
+epoch80: train: loss:0.5426084776290039 	 acc:0.7858546168958742 | test: loss:0.5449716179450509 	 acc:0.7760314341846758 	 lr:3.125e-06
+epoch81: train: loss:0.5419630528901556 	 acc:0.7858546168958742 | test: loss:0.5441730564610194 	 acc:0.7701375245579568 	 lr:3.125e-06
+epoch82: train: loss:0.5432373224400818 	 acc:0.7971512770137524 | test: loss:0.5450170736884321 	 acc:0.7760314341846758 	 lr:3.125e-06
+epoch83: train: loss:0.5403444843114242 	 acc:0.7932220039292731 | test: loss:0.5452756058490581 	 acc:0.7760314341846758 	 lr:3.125e-06
+epoch84: train: loss:0.5406783157575341 	 acc:0.7888015717092338 | test: loss:0.5453969052826257 	 acc:0.7779960707269156 	 lr:3.125e-06
+epoch85: train: loss:0.5388177196497065 	 acc:0.8025540275049116 | test: loss:0.5454186621489834 	 acc:0.7819253438113949 	 lr:3.125e-06
+epoch86: train: loss:0.539390351425688 	 acc:0.7883104125736738 | test: loss:0.545029816669659 	 acc:0.7799607072691552 	 lr:1.5625e-06
+epoch87: train: loss:0.5374272047653648 	 acc:0.8045186640471512 | test: loss:0.5448022122935836 	 acc:0.7799607072691552 	 lr:1.5625e-06
+epoch88: train: loss:0.5364372378950737 	 acc:0.8020628683693517 | test: loss:0.5444997457717865 	 acc:0.7799607072691552 	 lr:1.5625e-06
+epoch89: train: loss:0.5386088787923862 	 acc:0.8045186640471512 | test: loss:0.5439136473275356 	 acc:0.7819253438113949 	 lr:1.5625e-06
+epoch90: train: loss:0.5391284989701741 	 acc:0.7932220039292731 | test: loss:0.5439228034909441 	 acc:0.7779960707269156 	 lr:1.5625e-06
+epoch91: train: loss:0.5337658063133479 	 acc:0.7996070726915521 | test: loss:0.5438953324244861 	 acc:0.7760314341846758 	 lr:1.5625e-06
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/resnet50_imagenet_3_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/resnet50_imagenet_3_2/
+pooling!! 1024
+training with  resnet50
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Traceback (most recent call last):
+  File "main.py", line 429, in <module>
+    train(model=model, trainloader=train_dl, valloader=val_dl, args=args)
+  File "main.py", line 312, in train
+    train_acc, train_loss = evaluate(model, trainloader, criterion, args=args)
+  File "main.py", line 205, in evaluate
+    return evaluate_single(model, valloader, criterion, args)
+  File "main.py", line 90, in evaluate_single
+    output = m(model(input))
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/parallel/data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torchvision/models/resnet.py", line 125, in forward
+    out = self.bn1(out)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/batchnorm.py", line 178, in forward
+    self.eps,
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py", line 2282, in batch_norm
+    input, weight, bias, running_mean, running_var, training, momentum, eps, torch.backends.cudnn.enabled
+RuntimeError: CUDA out of memory. Tried to allocate 50.00 MiB (GPU 0; 39.41 GiB total capacity; 37.35 GiB already allocated; 38.50 MiB free; 37.53 GiB reserved in total by PyTorch)
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/slim_resnet50_imagenet_1_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/slim_resnet50_imagenet_1_2/
+training with  slim_resnet50
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+epoch0: train: loss:0.6966655486224911 	 acc:0.5972495088408645 | test: loss:0.6966090078203993 	 acc:0.5972495088408645 	 lr:0.0001
+epoch1: train: loss:0.6994778819543205 	 acc:0.5977406679764243 | test: loss:0.6990483505084144 	 acc:0.5972495088408645 	 lr:0.0001
+epoch2: train: loss:0.7153001533041768 	 acc:0.5967583497053045 | test: loss:0.7134084637132281 	 acc:0.5972495088408645 	 lr:0.0001
+epoch3: train: loss:0.6897399082399305 	 acc:0.599705304518664 | test: loss:0.6879038088213952 	 acc:0.6051080550098232 	 lr:0.0001
+epoch4: train: loss:0.6893167053084008 	 acc:0.6026522593320236 | test: loss:0.6859500487801602 	 acc:0.6110019646365422 	 lr:0.0001
+epoch5: train: loss:0.6830131413894458 	 acc:0.6080550098231827 | test: loss:0.6813340115640861 	 acc:0.6070726915520629 	 lr:0.0001
+epoch6: train: loss:0.6804314067181061 	 acc:0.5903732809430255 | test: loss:0.6822610824187753 	 acc:0.5756385068762279 	 lr:0.0001
+epoch7: train: loss:0.6793273288046682 	 acc:0.5289783889980354 | test: loss:0.6817632035328504 	 acc:0.48722986247544203 	 lr:0.0001
+epoch8: train: loss:0.6732771162434037 	 acc:0.5540275049115914 | test: loss:0.6813069702599981 	 acc:0.48526522593320237 	 lr:0.0001
+epoch9: train: loss:0.6995433445997932 	 acc:0.6026522593320236 | test: loss:0.7056644206431151 	 acc:0.5972495088408645 	 lr:0.0001
+epoch10: train: loss:0.6761795438108837 	 acc:0.5432220039292731 | test: loss:0.6784810095966917 	 acc:0.5127701375245579 	 lr:0.0001
+epoch11: train: loss:0.6852825649360776 	 acc:0.6164047151277013 | test: loss:0.6823195755364618 	 acc:0.6110019646365422 	 lr:0.0001
+epoch12: train: loss:0.6816846026887126 	 acc:0.5496070726915521 | test: loss:0.6809777515576256 	 acc:0.5284872298624754 	 lr:0.0001
+epoch13: train: loss:0.6748255672763982 	 acc:0.6277013752455796 | test: loss:0.6777716831748752 	 acc:0.5972495088408645 	 lr:0.0001
+epoch14: train: loss:0.6684158143453841 	 acc:0.6036345776031434 | test: loss:0.6693488098315031 	 acc:0.581532416502947 	 lr:0.0001
+epoch15: train: loss:0.6717035940213382 	 acc:0.5992141453831041 | test: loss:0.6716846817837249 	 acc:0.593320235756385 	 lr:0.0001
+epoch16: train: loss:0.6682965757804675 	 acc:0.612475442043222 | test: loss:0.6669630949295808 	 acc:0.6168958742632613 	 lr:0.0001
+epoch17: train: loss:0.6693725611699822 	 acc:0.6419449901768173 | test: loss:0.6728544661478818 	 acc:0.6365422396856582 	 lr:0.0001
+epoch18: train: loss:0.6696490007205655 	 acc:0.631139489194499 | test: loss:0.6739500538539325 	 acc:0.6110019646365422 	 lr:0.0001
+epoch19: train: loss:0.6646394493069302 	 acc:0.587426326129666 | test: loss:0.6650013144920289 	 acc:0.5972495088408645 	 lr:0.0001
+epoch20: train: loss:0.6677252457043511 	 acc:0.56237721021611 | test: loss:0.6660957561260591 	 acc:0.5343811394891945 	 lr:0.0001
+epoch21: train: loss:0.6726084405406285 	 acc:0.6114931237721022 | test: loss:0.6715296461212144 	 acc:0.6227897838899804 	 lr:0.0001
+epoch22: train: loss:0.6732320902623924 	 acc:0.4911591355599214 | test: loss:0.6797124639241306 	 acc:0.4577603143418468 	 lr:0.0001
+epoch23: train: loss:0.6643145904091347 	 acc:0.6065815324165029 | test: loss:0.6563702450519929 	 acc:0.6522593320235757 	 lr:0.0001
+epoch24: train: loss:0.6683454882419414 	 acc:0.5427308447937131 | test: loss:0.6669071624695904 	 acc:0.5206286836935167 	 lr:0.0001
+epoch25: train: loss:0.6933133439371301 	 acc:0.6183693516699411 | test: loss:0.6902452409852933 	 acc:0.6129666011787819 	 lr:0.0001
+epoch26: train: loss:0.6604908269140247 	 acc:0.6060903732809431 | test: loss:0.6584796670143637 	 acc:0.6149312377210217 	 lr:0.0001
+epoch27: train: loss:0.6572914019314854 	 acc:0.6345776031434185 | test: loss:0.654655961718681 	 acc:0.6542239685658153 	 lr:0.0001
+epoch28: train: loss:0.6587129439024185 	 acc:0.6385068762278978 | test: loss:0.6568538311188253 	 acc:0.6522593320235757 	 lr:0.0001
+epoch29: train: loss:0.6495681209508001 	 acc:0.6463654223968566 | test: loss:0.6534178860061061 	 acc:0.6581532416502947 	 lr:0.0001
+epoch30: train: loss:0.6519831965854922 	 acc:0.6414538310412574 | test: loss:0.6495893462936162 	 acc:0.6660117878192534 	 lr:0.0001
+epoch31: train: loss:0.6521155581258837 	 acc:0.6321218074656189 | test: loss:0.6430540662149081 	 acc:0.6620825147347741 	 lr:0.0001
+epoch32: train: loss:0.6496966415631982 	 acc:0.6060903732809431 | test: loss:0.6466926640752256 	 acc:0.6090373280943026 	 lr:0.0001
+epoch33: train: loss:0.6498953577109077 	 acc:0.6041257367387033 | test: loss:0.6484317112062675 	 acc:0.5952848722986247 	 lr:0.0001
+epoch34: train: loss:0.6537913027821449 	 acc:0.5923379174852652 | test: loss:0.6561202847184742 	 acc:0.5776031434184676 	 lr:0.0001
+epoch35: train: loss:0.6530252809843052 	 acc:0.6173870333988212 | test: loss:0.6562370844112164 	 acc:0.6129666011787819 	 lr:0.0001
+epoch36: train: loss:0.6653146630185994 	 acc:0.5201375245579568 | test: loss:0.679665610574786 	 acc:0.4577603143418468 	 lr:0.0001
+epoch37: train: loss:0.6656075672691135 	 acc:0.5255402750491159 | test: loss:0.6750962646396315 	 acc:0.47544204322200395 	 lr:0.0001
+epoch38: train: loss:0.6503653678538055 	 acc:0.6581532416502947 | test: loss:0.6497759458358255 	 acc:0.6758349705304518 	 lr:5e-05
+epoch39: train: loss:0.6490328443073805 	 acc:0.6522593320235757 | test: loss:0.6435524220550927 	 acc:0.693516699410609 	 lr:5e-05
+epoch40: train: loss:0.6547900959410227 	 acc:0.6527504911591355 | test: loss:0.6466256125971002 	 acc:0.6777996070726916 	 lr:5e-05
+epoch41: train: loss:0.6468526548861521 	 acc:0.6326129666011788 | test: loss:0.6340305588568592 	 acc:0.6738703339882122 	 lr:5e-05
+epoch42: train: loss:0.642518025718644 	 acc:0.656188605108055 | test: loss:0.6405297778912752 	 acc:0.6738703339882122 	 lr:5e-05
+epoch43: train: loss:0.6456723784650942 	 acc:0.649803536345776 | test: loss:0.6383128874662582 	 acc:0.6463654223968566 	 lr:5e-05
+epoch44: train: loss:0.6447531839719222 	 acc:0.6134577603143418 | test: loss:0.6391289054996139 	 acc:0.6385068762278978 	 lr:5e-05
+epoch45: train: loss:0.6389938147925206 	 acc:0.6669941060903732 | test: loss:0.6347497973320292 	 acc:0.6856581532416502 	 lr:5e-05
+epoch46: train: loss:0.6343182369861715 	 acc:0.6340864440078585 | test: loss:0.6414921051861027 	 acc:0.6129666011787819 	 lr:5e-05
+epoch47: train: loss:0.6382993723179831 	 acc:0.6758349705304518 | test: loss:0.6379096048988387 	 acc:0.6994106090373281 	 lr:5e-05
+epoch48: train: loss:0.6413074600673143 	 acc:0.6586444007858546 | test: loss:0.6373517686585312 	 acc:0.6895874263261297 	 lr:2.5e-05
+epoch49: train: loss:0.638292644487617 	 acc:0.6591355599214146 | test: loss:0.6325050340654339 	 acc:0.6856581532416502 	 lr:2.5e-05
+epoch50: train: loss:0.6427156128911466 	 acc:0.6394891944990176 | test: loss:0.6327796785676878 	 acc:0.6758349705304518 	 lr:2.5e-05
+epoch51: train: loss:0.6398489276177757 	 acc:0.6586444007858546 | test: loss:0.6339675718534203 	 acc:0.6856581532416502 	 lr:2.5e-05
+epoch52: train: loss:0.6395372879528578 	 acc:0.6640471512770137 | test: loss:0.6372897972760828 	 acc:0.6719056974459725 	 lr:2.5e-05
+epoch53: train: loss:0.6401560255024429 	 acc:0.6571709233791748 | test: loss:0.6342518217202957 	 acc:0.6679764243614931 	 lr:2.5e-05
+epoch54: train: loss:0.6404900912685807 	 acc:0.6267190569744597 | test: loss:0.637085825497603 	 acc:0.6601178781925344 	 lr:2.5e-05
+epoch55: train: loss:0.6398648391303942 	 acc:0.6719056974459725 | test: loss:0.6362670352042072 	 acc:0.6895874263261297 	 lr:2.5e-05
+epoch56: train: loss:0.6388712820463424 	 acc:0.6630648330058939 | test: loss:0.6339785825527019 	 acc:0.6817288801571709 	 lr:1.25e-05
+epoch57: train: loss:0.6357734107315424 	 acc:0.6630648330058939 | test: loss:0.6321824003296423 	 acc:0.6777996070726916 	 lr:1.25e-05
+epoch58: train: loss:0.6324619004440682 	 acc:0.674852652259332 | test: loss:0.6307777726111571 	 acc:0.6836935166994106 	 lr:1.25e-05
+epoch59: train: loss:0.638771384193293 	 acc:0.6581532416502947 | test: loss:0.6307923840633309 	 acc:0.6836935166994106 	 lr:1.25e-05
+epoch60: train: loss:0.636568298040064 	 acc:0.6665029469548134 | test: loss:0.6317950852493406 	 acc:0.6797642436149313 	 lr:1.25e-05
+epoch61: train: loss:0.6314857675893367 	 acc:0.6797642436149313 | test: loss:0.6300521730674039 	 acc:0.6758349705304518 	 lr:1.25e-05
+epoch62: train: loss:0.6302785085320238 	 acc:0.6704322200392927 | test: loss:0.6284736903102552 	 acc:0.6994106090373281 	 lr:1.25e-05
+epoch63: train: loss:0.6308069958668092 	 acc:0.668467583497053 | test: loss:0.6291696162261289 	 acc:0.6895874263261297 	 lr:1.25e-05
+epoch64: train: loss:0.631282475116445 	 acc:0.668467583497053 | test: loss:0.6290907746213826 	 acc:0.6994106090373281 	 lr:1.25e-05
+epoch65: train: loss:0.6348503548176209 	 acc:0.6517681728880157 | test: loss:0.6273391318227547 	 acc:0.6954813359528488 	 lr:1.25e-05
+epoch66: train: loss:0.6325116202030294 	 acc:0.6704322200392927 | test: loss:0.6282681452736171 	 acc:0.7053045186640472 	 lr:1.25e-05
+epoch67: train: loss:0.6325587558840019 	 acc:0.6728880157170923 | test: loss:0.6285650898759164 	 acc:0.6994106090373281 	 lr:1.25e-05
+epoch68: train: loss:0.6393473153030006 	 acc:0.638015717092338 | test: loss:0.6314317176524689 	 acc:0.6777996070726916 	 lr:1.25e-05
+epoch69: train: loss:0.637419113710025 	 acc:0.6468565815324165 | test: loss:0.6301500642697797 	 acc:0.6738703339882122 	 lr:1.25e-05
+epoch70: train: loss:0.6342780405037061 	 acc:0.6640471512770137 | test: loss:0.6298848682161867 	 acc:0.6797642436149313 	 lr:1.25e-05
+epoch71: train: loss:0.6355813468837551 	 acc:0.6635559921414538 | test: loss:0.6312132166270423 	 acc:0.6777996070726916 	 lr:1.25e-05
+epoch72: train: loss:0.6373335409960719 	 acc:0.6537328094302554 | test: loss:0.6294354537615373 	 acc:0.6699410609037328 	 lr:6.25e-06
+epoch73: train: loss:0.632163386447959 	 acc:0.6719056974459725 | test: loss:0.6294856009408393 	 acc:0.6719056974459725 	 lr:6.25e-06
+epoch74: train: loss:0.6385639113152659 	 acc:0.656679764243615 | test: loss:0.6282370212270141 	 acc:0.6974459724950884 	 lr:6.25e-06
+epoch75: train: loss:0.6371784579074687 	 acc:0.656188605108055 | test: loss:0.6276093223708552 	 acc:0.6758349705304518 	 lr:6.25e-06
+epoch76: train: loss:0.6322798276931223 	 acc:0.6743614931237721 | test: loss:0.626459153672801 	 acc:0.6994106090373281 	 lr:6.25e-06
+epoch77: train: loss:0.6380670096410516 	 acc:0.6630648330058939 | test: loss:0.6263692116690525 	 acc:0.6974459724950884 	 lr:6.25e-06
+epoch78: train: loss:0.6371459301656263 	 acc:0.6581532416502947 | test: loss:0.6282873887912698 	 acc:0.693516699410609 	 lr:6.25e-06
+epoch79: train: loss:0.636882668511104 	 acc:0.6635559921414538 | test: loss:0.6287278020077464 	 acc:0.7053045186640472 	 lr:6.25e-06
+epoch80: train: loss:0.6323502431449816 	 acc:0.6714145383104125 | test: loss:0.6274329076113073 	 acc:0.7053045186640472 	 lr:6.25e-06
+epoch81: train: loss:0.6336764026952867 	 acc:0.6596267190569745 | test: loss:0.6267384455808254 	 acc:0.7033398821218074 	 lr:6.25e-06
+epoch82: train: loss:0.6335281006011139 	 acc:0.650294695481336 | test: loss:0.6275754411703008 	 acc:0.6817288801571709 	 lr:6.25e-06
+epoch83: train: loss:0.6324631209926193 	 acc:0.6576620825147348 | test: loss:0.6267953019713606 	 acc:0.6817288801571709 	 lr:6.25e-06
+epoch84: train: loss:0.6323845480186298 	 acc:0.6694499017681729 | test: loss:0.6275095615265177 	 acc:0.6836935166994106 	 lr:3.125e-06
+epoch85: train: loss:0.6329019753544176 	 acc:0.6620825147347741 | test: loss:0.6277710295379278 	 acc:0.68762278978389 	 lr:3.125e-06
+epoch86: train: loss:0.6319738448485879 	 acc:0.6674852652259332 | test: loss:0.6279509956335506 	 acc:0.693516699410609 	 lr:3.125e-06
+epoch87: train: loss:0.6300684273360052 	 acc:0.6763261296660118 | test: loss:0.6280951079544712 	 acc:0.6915520628683693 	 lr:3.125e-06
+epoch88: train: loss:0.6369641965405177 	 acc:0.6507858546168959 | test: loss:0.6276750092656298 	 acc:0.6954813359528488 	 lr:3.125e-06
+epoch89: train: loss:0.6316645285938015 	 acc:0.6733791748526523 | test: loss:0.6267061794436517 	 acc:0.6954813359528488 	 lr:3.125e-06
+epoch90: train: loss:0.6319843878446253 	 acc:0.6591355599214146 | test: loss:0.6266763319200992 	 acc:0.6974459724950884 	 lr:1.5625e-06
+epoch91: train: loss:0.6359139925604484 	 acc:0.6640471512770137 | test: loss:0.6273596441347613 	 acc:0.693516699410609 	 lr:1.5625e-06
+epoch92: train: loss:0.6336707518470779 	 acc:0.6596267190569745 | test: loss:0.6278072285277436 	 acc:0.6915520628683693 	 lr:1.5625e-06
+epoch93: train: loss:0.6300492716444499 	 acc:0.6738703339882122 | test: loss:0.6277778907468604 	 acc:0.6895874263261297 	 lr:1.5625e-06
+epoch94: train: loss:0.6321996039398059 	 acc:0.6645383104125737 | test: loss:0.6271947046159996 	 acc:0.6856581532416502 	 lr:1.5625e-06
+epoch95: train: loss:0.6278220533387834 	 acc:0.6694499017681729 | test: loss:0.626748524737967 	 acc:0.6895874263261297 	 lr:1.5625e-06
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/slim_resnet50_imagenet_2_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/slim_resnet50_imagenet_2_2/
+training with  slim_resnet50
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+epoch0: train: loss:0.6936337655091801 	 acc:0.5442043222003929 | test: loss:0.6935397892429225 	 acc:0.5854616895874263 	 lr:0.0001
+epoch1: train: loss:0.6959538293493754 	 acc:0.4027504911591356 | test: loss:0.6954748868239652 	 acc:0.4027504911591356 	 lr:0.0001
+epoch2: train: loss:0.6902395763191118 	 acc:0.5913555992141454 | test: loss:0.6896994866884527 	 acc:0.6149312377210217 	 lr:0.0001
+epoch3: train: loss:0.6869994581097001 	 acc:0.6006876227897839 | test: loss:0.685928521315569 	 acc:0.6090373280943026 	 lr:0.0001
+epoch4: train: loss:0.6842201017209261 	 acc:0.6016699410609038 | test: loss:0.6829044288408546 	 acc:0.6011787819253438 	 lr:0.0001
+epoch5: train: loss:0.6868476300904699 	 acc:0.5967583497053045 | test: loss:0.6834400517533008 	 acc:0.6011787819253438 	 lr:0.0001
+epoch6: train: loss:0.678084170185981 	 acc:0.6252455795677799 | test: loss:0.6733218616493091 	 acc:0.650294695481336 	 lr:0.0001
+epoch7: train: loss:0.6755112246820641 	 acc:0.5967583497053045 | test: loss:0.6705120347571982 	 acc:0.6267190569744597 	 lr:0.0001
+epoch8: train: loss:0.6704641503294699 	 acc:0.5589390962671905 | test: loss:0.6726967790740412 	 acc:0.5206286836935167 	 lr:0.0001
+epoch9: train: loss:0.6590606389907582 	 acc:0.6055992141453831 | test: loss:0.6589909855181201 	 acc:0.6031434184675835 	 lr:0.0001
+epoch10: train: loss:0.6578025648073972 	 acc:0.5943025540275049 | test: loss:0.6616596649812575 	 acc:0.555992141453831 	 lr:0.0001
+epoch11: train: loss:0.6591401478396418 	 acc:0.5962671905697446 | test: loss:0.6610917638701868 	 acc:0.555992141453831 	 lr:0.0001
+epoch12: train: loss:0.6529492956013483 	 acc:0.6110019646365422 | test: loss:0.6563797480699356 	 acc:0.5776031434184676 	 lr:0.0001
+epoch13: train: loss:0.6591221026212621 	 acc:0.5525540275049116 | test: loss:0.6621651492559137 	 acc:0.5029469548133595 	 lr:0.0001
+epoch14: train: loss:0.654728700112266 	 acc:0.6031434184675835 | test: loss:0.6504503022476826 	 acc:0.6051080550098232 	 lr:0.0001
+epoch15: train: loss:0.646979359840363 	 acc:0.6252455795677799 | test: loss:0.6511889437326982 	 acc:0.6227897838899804 	 lr:0.0001
+epoch16: train: loss:0.6589229991019123 	 acc:0.5299607072691552 | test: loss:0.6651943793231238 	 acc:0.5127701375245579 	 lr:0.0001
+epoch17: train: loss:0.6499349090814122 	 acc:0.6581532416502947 | test: loss:0.6461834717827368 	 acc:0.6797642436149313 	 lr:0.0001
+epoch18: train: loss:0.6365653859608769 	 acc:0.6547151277013753 | test: loss:0.6332363064724711 	 acc:0.6660117878192534 	 lr:0.0001
+epoch19: train: loss:0.658898569160454 	 acc:0.6547151277013753 | test: loss:0.656183336947428 	 acc:0.650294695481336 	 lr:0.0001
+epoch20: train: loss:0.6392351530624045 	 acc:0.6011787819253438 | test: loss:0.6356216246346359 	 acc:0.6149312377210217 	 lr:0.0001
+epoch21: train: loss:0.6332722732500852 	 acc:0.6881139489194499 | test: loss:0.6390807404967797 	 acc:0.6797642436149313 	 lr:0.0001
+epoch22: train: loss:0.6396785374943071 	 acc:0.6807465618860511 | test: loss:0.6504885891565874 	 acc:0.6777996070726916 	 lr:0.0001
+epoch23: train: loss:0.6266712936296445 	 acc:0.6640471512770137 | test: loss:0.622725924597742 	 acc:0.6915520628683693 	 lr:0.0001
+epoch24: train: loss:0.6731721831445375 	 acc:0.48477406679764246 | test: loss:0.6855348400142197 	 acc:0.4538310412573674 	 lr:0.0001
+epoch25: train: loss:0.6193055617083266 	 acc:0.6714145383104125 | test: loss:0.6221763468210262 	 acc:0.6620825147347741 	 lr:0.0001
+epoch26: train: loss:0.6498151523425209 	 acc:0.5338899803536346 | test: loss:0.6644431157055913 	 acc:0.48919449901768175 	 lr:0.0001
+epoch27: train: loss:0.6087137871734754 	 acc:0.6949901768172888 | test: loss:0.6089500427714499 	 acc:0.7033398821218074 	 lr:0.0001
+epoch28: train: loss:0.6631703968132409 	 acc:0.5152259332023575 | test: loss:0.689693243775246 	 acc:0.4577603143418468 	 lr:0.0001
+epoch29: train: loss:0.6485213054186703 	 acc:0.6655206286836935 | test: loss:0.6496792867750456 	 acc:0.6581532416502947 	 lr:0.0001
+epoch30: train: loss:0.6235405680941224 	 acc:0.6183693516699411 | test: loss:0.6260763115170896 	 acc:0.5913555992141454 	 lr:0.0001
+epoch31: train: loss:0.6105071289834433 	 acc:0.7053045186640472 | test: loss:0.6118403193055998 	 acc:0.7190569744597249 	 lr:0.0001
+epoch32: train: loss:0.6185458961779101 	 acc:0.693516699410609 | test: loss:0.6177253090796629 	 acc:0.7151277013752456 	 lr:0.0001
+epoch33: train: loss:0.6201208115560836 	 acc:0.7023575638506876 | test: loss:0.626180271385695 	 acc:0.7111984282907662 	 lr:0.0001
+epoch34: train: loss:0.6112797873896091 	 acc:0.6468565815324165 | test: loss:0.61599976538675 	 acc:0.6404715127701375 	 lr:5e-05
+epoch35: train: loss:0.5957459656335048 	 acc:0.7033398821218074 | test: loss:0.598063335086133 	 acc:0.7151277013752456 	 lr:5e-05
+epoch36: train: loss:0.5947670883888814 	 acc:0.7229862475442044 | test: loss:0.5986584875813168 	 acc:0.7288801571709234 	 lr:5e-05
+epoch37: train: loss:0.5968251329039778 	 acc:0.68713163064833 | test: loss:0.5994319261174305 	 acc:0.6719056974459725 	 lr:5e-05
+epoch38: train: loss:0.6022326466142546 	 acc:0.6817288801571709 | test: loss:0.5969664254216642 	 acc:0.6895874263261297 	 lr:5e-05
+epoch39: train: loss:0.608676861451979 	 acc:0.6458742632612967 | test: loss:0.6103383717227778 	 acc:0.6267190569744597 	 lr:5e-05
+epoch40: train: loss:0.5987938055823501 	 acc:0.7077603143418467 | test: loss:0.5939854786297661 	 acc:0.7013752455795678 	 lr:5e-05
+epoch41: train: loss:0.5870745474791011 	 acc:0.7288801571709234 | test: loss:0.5895101572066721 	 acc:0.7210216110019646 	 lr:5e-05
+epoch42: train: loss:0.5947171742414913 	 acc:0.6591355599214146 | test: loss:0.6015486507612502 	 acc:0.6522593320235757 	 lr:5e-05
+epoch43: train: loss:0.5860770722971919 	 acc:0.7283889980353635 | test: loss:0.5844470290631817 	 acc:0.7288801571709234 	 lr:5e-05
+epoch44: train: loss:0.5844713340573788 	 acc:0.7082514734774067 | test: loss:0.5860228428437808 	 acc:0.7092337917485265 	 lr:5e-05
+epoch45: train: loss:0.6049150671143897 	 acc:0.6389980353634578 | test: loss:0.6103137184688291 	 acc:0.630648330058939 	 lr:5e-05
+epoch46: train: loss:0.6045103937328916 	 acc:0.6768172888015717 | test: loss:0.5964137141268941 	 acc:0.6856581532416502 	 lr:5e-05
+epoch47: train: loss:0.6052683904503559 	 acc:0.6468565815324165 | test: loss:0.6099167997804278 	 acc:0.6227897838899804 	 lr:5e-05
+epoch48: train: loss:0.5858917129765794 	 acc:0.7259332023575639 | test: loss:0.578557875512391 	 acc:0.756385068762279 	 lr:5e-05
+epoch49: train: loss:0.5926653522639471 	 acc:0.7234774066797642 | test: loss:0.5830440253077883 	 acc:0.7387033398821218 	 lr:5e-05
+epoch50: train: loss:0.5978905192058541 	 acc:0.7229862475442044 | test: loss:0.594744240722394 	 acc:0.730844793713163 	 lr:5e-05
+epoch51: train: loss:0.5979037035424958 	 acc:0.7205304518664047 | test: loss:0.5871155285413701 	 acc:0.7387033398821218 	 lr:5e-05
+epoch52: train: loss:0.5806135734312661 	 acc:0.7234774066797642 | test: loss:0.5810819571519413 	 acc:0.7131630648330058 	 lr:5e-05
+epoch53: train: loss:0.584546788853606 	 acc:0.7146365422396856 | test: loss:0.5844049473642601 	 acc:0.6974459724950884 	 lr:5e-05
+epoch54: train: loss:0.58103303368293 	 acc:0.7293713163064833 | test: loss:0.5709469371085552 	 acc:0.7367387033398821 	 lr:5e-05
+epoch55: train: loss:0.5781092671842144 	 acc:0.7401768172888016 | test: loss:0.5773434144808876 	 acc:0.7229862475442044 	 lr:5e-05
+epoch56: train: loss:0.6069199789483796 	 acc:0.637524557956778 | test: loss:0.6155010194815915 	 acc:0.618860510805501 	 lr:5e-05
+epoch57: train: loss:0.5782795788497025 	 acc:0.712180746561886 | test: loss:0.5759353378901079 	 acc:0.7111984282907662 	 lr:5e-05
+epoch58: train: loss:0.57566021128113 	 acc:0.7372298624754421 | test: loss:0.5725096481722324 	 acc:0.7288801571709234 	 lr:5e-05
+epoch59: train: loss:0.5827445849220037 	 acc:0.7067779960707269 | test: loss:0.5849831296324964 	 acc:0.6817288801571709 	 lr:5e-05
+epoch60: train: loss:0.5713930063257049 	 acc:0.7514734774066798 | test: loss:0.5695684672807195 	 acc:0.7347740667976425 	 lr:5e-05
+epoch61: train: loss:0.5764313467827668 	 acc:0.7323182711198428 | test: loss:0.5726032863665658 	 acc:0.724950884086444 	 lr:5e-05
+epoch62: train: loss:0.5813801776917837 	 acc:0.7372298624754421 | test: loss:0.5748081074950737 	 acc:0.7347740667976425 	 lr:5e-05
+epoch63: train: loss:0.5844408196409934 	 acc:0.7421414538310412 | test: loss:0.5833150596890327 	 acc:0.7524557956777996 	 lr:5e-05
+epoch64: train: loss:0.5921607244693928 	 acc:0.6723968565815324 | test: loss:0.5932234320752982 	 acc:0.6601178781925344 	 lr:5e-05
+epoch65: train: loss:0.5701072067315077 	 acc:0.7490176817288802 | test: loss:0.5733841426948667 	 acc:0.7347740667976425 	 lr:5e-05
+epoch66: train: loss:0.5921653344026951 	 acc:0.731827111984283 | test: loss:0.593934647812122 	 acc:0.7367387033398821 	 lr:5e-05
+epoch67: train: loss:0.5724845426724328 	 acc:0.7455795677799607 | test: loss:0.5693918944341964 	 acc:0.7387033398821218 	 lr:2.5e-05
+epoch68: train: loss:0.5667065899592252 	 acc:0.7362475442043221 | test: loss:0.5673450640236231 	 acc:0.7269155206286837 	 lr:2.5e-05
+epoch69: train: loss:0.5632740514451722 	 acc:0.7490176817288802 | test: loss:0.5633369090514941 	 acc:0.7347740667976425 	 lr:2.5e-05
+epoch70: train: loss:0.5649448213970731 	 acc:0.7426326129666012 | test: loss:0.5635045867537702 	 acc:0.756385068762279 	 lr:2.5e-05
+epoch71: train: loss:0.5650668924121819 	 acc:0.737721021611002 | test: loss:0.5692635156316701 	 acc:0.7170923379174853 	 lr:2.5e-05
+epoch72: train: loss:0.5578429006874445 	 acc:0.769155206286837 | test: loss:0.5647938671889614 	 acc:0.75049115913556 	 lr:2.5e-05
+epoch73: train: loss:0.5672557849312578 	 acc:0.7293713163064833 | test: loss:0.560754559948777 	 acc:0.7524557956777996 	 lr:2.5e-05
+epoch74: train: loss:0.5651906123329942 	 acc:0.7303536345776032 | test: loss:0.5667288448581058 	 acc:0.7170923379174853 	 lr:2.5e-05
+epoch75: train: loss:0.5668826599720653 	 acc:0.7382121807465619 | test: loss:0.5721225718618141 	 acc:0.7210216110019646 	 lr:2.5e-05
+epoch76: train: loss:0.5633786629834203 	 acc:0.75 | test: loss:0.5674639892250241 	 acc:0.7387033398821218 	 lr:2.5e-05
+epoch77: train: loss:0.5611749320695348 	 acc:0.7524557956777996 | test: loss:0.566676182573577 	 acc:0.7190569744597249 	 lr:2.5e-05
+epoch78: train: loss:0.5610222293023744 	 acc:0.74950884086444 | test: loss:0.5640636374533528 	 acc:0.730844793713163 	 lr:2.5e-05
+epoch79: train: loss:0.5636350364956734 	 acc:0.7490176817288802 | test: loss:0.561673827513262 	 acc:0.7426326129666012 	 lr:2.5e-05
+epoch80: train: loss:0.5619403887357131 	 acc:0.7539292730844793 | test: loss:0.5633949870444936 	 acc:0.7288801571709234 	 lr:1.25e-05
+epoch81: train: loss:0.5582351177520977 	 acc:0.7696463654223968 | test: loss:0.5640441360782781 	 acc:0.7426326129666012 	 lr:1.25e-05
+epoch82: train: loss:0.5626035357271055 	 acc:0.7583497053045186 | test: loss:0.5638932237924902 	 acc:0.7367387033398821 	 lr:1.25e-05
+epoch83: train: loss:0.5569746148843896 	 acc:0.762278978388998 | test: loss:0.5649252813785156 	 acc:0.7367387033398821 	 lr:1.25e-05
+epoch84: train: loss:0.5627337659037652 	 acc:0.7490176817288802 | test: loss:0.5629437905397772 	 acc:0.7367387033398821 	 lr:1.25e-05
+epoch85: train: loss:0.5529966135390381 	 acc:0.762278978388998 | test: loss:0.5620942019760492 	 acc:0.7387033398821218 	 lr:1.25e-05
+epoch86: train: loss:0.5606818108989589 	 acc:0.7593320235756386 | test: loss:0.5610101607084743 	 acc:0.7347740667976425 	 lr:6.25e-06
+epoch87: train: loss:0.5598554412133567 	 acc:0.7534381139489195 | test: loss:0.5598976327534508 	 acc:0.7524557956777996 	 lr:6.25e-06
+epoch88: train: loss:0.5619781995100684 	 acc:0.7558939096267191 | test: loss:0.5599516941662621 	 acc:0.7583497053045186 	 lr:6.25e-06
+epoch89: train: loss:0.5582036030550134 	 acc:0.7593320235756386 | test: loss:0.5603615262185192 	 acc:0.7524557956777996 	 lr:6.25e-06
+epoch90: train: loss:0.5544191020410983 	 acc:0.7706286836935167 | test: loss:0.5599153592216477 	 acc:0.7445972495088409 	 lr:6.25e-06
+epoch91: train: loss:0.5539688651828728 	 acc:0.7657170923379175 | test: loss:0.5593999429863891 	 acc:0.7445972495088409 	 lr:6.25e-06
+epoch92: train: loss:0.5547064942086375 	 acc:0.7593320235756386 | test: loss:0.5592373230134106 	 acc:0.7485265225933202 	 lr:6.25e-06
+epoch93: train: loss:0.5596585448223856 	 acc:0.74950884086444 | test: loss:0.5605378901560321 	 acc:0.7328094302554028 	 lr:6.25e-06
+epoch94: train: loss:0.5534702133101892 	 acc:0.7637524557956779 | test: loss:0.5606174773457945 	 acc:0.7367387033398821 	 lr:6.25e-06
+epoch95: train: loss:0.5634854040117769 	 acc:0.75 | test: loss:0.5600165078354257 	 acc:0.7524557956777996 	 lr:6.25e-06
+epoch96: train: loss:0.5594649469454303 	 acc:0.7593320235756386 | test: loss:0.558485391449132 	 acc:0.7465618860510805 	 lr:6.25e-06
+epoch97: train: loss:0.5465028999128135 	 acc:0.7642436149312377 | test: loss:0.5605237208789833 	 acc:0.7288801571709234 	 lr:6.25e-06
+epoch98: train: loss:0.5611947540684159 	 acc:0.7426326129666012 | test: loss:0.559637274629709 	 acc:0.7229862475442044 	 lr:6.25e-06
+epoch99: train: loss:0.5519718507886635 	 acc:0.7716110019646365 | test: loss:0.5575495121052785 	 acc:0.768172888015717 	 lr:6.25e-06
+epoch100: train: loss:0.5557838303635303 	 acc:0.7627701375245579 | test: loss:0.5580104457137627 	 acc:0.7642436149312377 	 lr:6.25e-06
+epoch101: train: loss:0.5544955304188907 	 acc:0.7593320235756386 | test: loss:0.5567262034519248 	 acc:0.756385068762279 	 lr:6.25e-06
+epoch102: train: loss:0.5494278127177525 	 acc:0.7745579567779961 | test: loss:0.5570346077205156 	 acc:0.7524557956777996 	 lr:6.25e-06
+epoch103: train: loss:0.551733697912782 	 acc:0.7524557956777996 | test: loss:0.55760044035134 	 acc:0.7367387033398821 	 lr:6.25e-06
+epoch104: train: loss:0.5525279046275995 	 acc:0.7637524557956779 | test: loss:0.5588845922108483 	 acc:0.7485265225933202 	 lr:6.25e-06
+epoch105: train: loss:0.5598676058304567 	 acc:0.743614931237721 | test: loss:0.5591123490530288 	 acc:0.7387033398821218 	 lr:6.25e-06
+epoch106: train: loss:0.5539722305618241 	 acc:0.7549115913555993 | test: loss:0.5598233533046101 	 acc:0.7445972495088409 	 lr:6.25e-06
+epoch107: train: loss:0.5559639074713402 	 acc:0.7603143418467584 | test: loss:0.559686926821126 	 acc:0.7465618860510805 	 lr:6.25e-06
+epoch108: train: loss:0.5524232430870266 	 acc:0.7617878192534381 | test: loss:0.5598034295445575 	 acc:0.7426326129666012 	 lr:3.125e-06
+epoch109: train: loss:0.5523353730765682 	 acc:0.7568762278978389 | test: loss:0.5596010791529372 	 acc:0.7328094302554028 	 lr:3.125e-06
+epoch110: train: loss:0.5469338160835221 	 acc:0.7671905697445972 | test: loss:0.5589953850669336 	 acc:0.7347740667976425 	 lr:3.125e-06
+epoch111: train: loss:0.5533930981323152 	 acc:0.7514734774066798 | test: loss:0.5577232303694329 	 acc:0.7406679764243614 	 lr:3.125e-06
+epoch112: train: loss:0.5535834814570039 	 acc:0.7583497053045186 | test: loss:0.556746360478092 	 acc:0.7485265225933202 	 lr:3.125e-06
+epoch113: train: loss:0.5555812544344919 	 acc:0.7671905697445972 | test: loss:0.557716246203964 	 acc:0.7583497053045186 	 lr:3.125e-06
+epoch114: train: loss:0.5525614080588335 	 acc:0.7642436149312377 | test: loss:0.5575009959151562 	 acc:0.7445972495088409 	 lr:1.5625e-06
+epoch115: train: loss:0.5475887177266868 	 acc:0.7745579567779961 | test: loss:0.5580874407455354 	 acc:0.7426326129666012 	 lr:1.5625e-06
+epoch116: train: loss:0.5595156220181283 	 acc:0.7524557956777996 | test: loss:0.5581071413101991 	 acc:0.7445972495088409 	 lr:1.5625e-06
+epoch117: train: loss:0.5564204512972729 	 acc:0.7578585461689588 | test: loss:0.5578146341507467 	 acc:0.7406679764243614 	 lr:1.5625e-06
+epoch118: train: loss:0.5537554122844239 	 acc:0.768664047151277 | test: loss:0.5573211788896961 	 acc:0.7426326129666012 	 lr:1.5625e-06
+epoch119: train: loss:0.5512263101538413 	 acc:0.7716110019646365 | test: loss:0.5576168680472083 	 acc:0.756385068762279 	 lr:1.5625e-06
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/slim_resnet50_imagenet_3_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/slim_resnet50_imagenet_3_2/
+training with  slim_resnet50
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Traceback (most recent call last):
+  File "main.py", line 429, in <module>
+    train(model=model, trainloader=train_dl, valloader=val_dl, args=args)
+  File "main.py", line 312, in train
+    train_acc, train_loss = evaluate(model, trainloader, criterion, args=args)
+  File "main.py", line 205, in evaluate
+    return evaluate_single(model, valloader, criterion, args)
+  File "main.py", line 90, in evaluate_single
+    output = m(model(input))
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/parallel/data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/slim_resnet.py", line 257, in forward
+    return self._forward_impl(x)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/slim_resnet.py", line 247, in _forward_impl
+    x = self.layer3(x)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/slim_resnet.py", line 133, in forward
+    out = self.bn3(out)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/modules/batchnorm.py", line 178, in forward
+    self.eps,
+  File "/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py", line 2282, in batch_norm
+    input, weight, bias, running_mean, running_var, training, momentum, eps, torch.backends.cudnn.enabled
+RuntimeError: CUDA out of memory. Tried to allocate 196.00 MiB (GPU 0; 39.41 GiB total capacity; 37.16 GiB already allocated; 130.50 MiB free; 37.44 GiB reserved in total by PyTorch)
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/freeze_resnet50_imagenet_1_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/freeze_resnet50_imagenet_1_2/
+Traceback (most recent call last):
+  File "main.py", line 412, in <module>
+    model = freeze_resnet50(finetune_from=args.finetune_from, classes=args.classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 283, in freeze_resnet50
+    net = resnet50(pretrained="imagenet", trunc=-1, classes=classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 183, in resnet50
+    if args.pooling:
+AttributeError: 'NoneType' object has no attribute 'pooling'
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/freeze_resnet50_imagenet_2_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/freeze_resnet50_imagenet_2_2/
+Traceback (most recent call last):
+  File "main.py", line 412, in <module>
+    model = freeze_resnet50(finetune_from=args.finetune_from, classes=args.classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 283, in freeze_resnet50
+    net = resnet50(pretrained="imagenet", trunc=-1, classes=classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 183, in resnet50
+    if args.pooling:
+AttributeError: 'NoneType' object has no attribute 'pooling'
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/freeze_resnet50_imagenet_3_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/freeze_resnet50_imagenet_3_2/
+Traceback (most recent call last):
+  File "main.py", line 412, in <module>
+    model = freeze_resnet50(finetune_from=args.finetune_from, classes=args.classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 283, in freeze_resnet50
+    net = resnet50(pretrained="imagenet", trunc=-1, classes=classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 183, in resnet50
+    if args.pooling:
+AttributeError: 'NoneType' object has no attribute 'pooling'
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/freeze_resnet50_imagenet_4_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/freeze_resnet50_imagenet_4_2/
+Traceback (most recent call last):
+  File "main.py", line 412, in <module>
+    model = freeze_resnet50(finetune_from=args.finetune_from, classes=args.classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 283, in freeze_resnet50
+    net = resnet50(pretrained="imagenet", trunc=-1, classes=classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 183, in resnet50
+    if args.pooling:
+AttributeError: 'NoneType' object has no attribute 'pooling'
+
+Bad key text.latex.preview in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 123 ('text.latex.preview : False')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key mathtext.fallback_to_cm in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 155 ('mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key savefig.jpeg_quality in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 418 ('savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality parameter.')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key keymap.all_axes in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 466 ('keymap.all_axes : a                 # enable all axes')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_path in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 477 ('animation.avconv_path: avconv     # Path to avconv binary. Without full path')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key animation.avconv_args in file /home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 479 ('animation.avconv_args:            # Additional arguments to pass to avconv')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.5.2/matplotlibrc.template
+or from the matplotlib source distribution
+/home/jusun/peng0347/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+weights for positive classes: tensor([1.4829, 1.0000], device='cuda:0')
+../checkpoints/BIMCV/freeze_resnet50_imagenet_5_2/
+Training on BIMCV, create new exp container at ../checkpoints/BIMCV/freeze_resnet50_imagenet_5_2/
+Traceback (most recent call last):
+  File "main.py", line 412, in <module>
+    model = freeze_resnet50(finetune_from=args.finetune_from, classes=args.classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 283, in freeze_resnet50
+    net = resnet50(pretrained="imagenet", trunc=-1, classes=classes)
+  File "/panfs/roc/groups/9/jusun/peng0347/TL/src/utils/models.py", line 183, in resnet50
+    if args.pooling:
+AttributeError: 'NoneType' object has no attribute 'pooling'
