@@ -3,7 +3,7 @@ This is the PyTorch implemention of our paper **[Rethink Transfer Learning in Me
 
 
 
-Overview            |  results
+Overview            |  example of TTL on resent50
 :-------------------------:|:-------------------------:
 <img src="figures/overview.png" width="500" /> |  <img src="figures/svcca.png" width="450" />
 
@@ -21,6 +21,7 @@ pip install -r requirements.txt
 
 ## Dataset
 <figure><img src="figures/data_example.png"></figure>
+
 ### **BIMCV**
 - Please download our pre-processed datasets [TBA](), put under `data/` directory and perform following commands:
     ```bash
