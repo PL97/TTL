@@ -2,7 +2,10 @@
 This is the PyTorch implemention of our paper **[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)** [In preparation for IEEE Transactions on Medical Imaging, 2022]
 
 
-<figure><img src="figures/overview.png"></figure>
+
+Overview            |  results
+:-------------------------:|:-------------------------:
+<img src="figures/overview.png" width="500" /> |  <img src="figures/svcca.png" width="450" />
 
 
 
