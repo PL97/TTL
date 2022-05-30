@@ -1,2 +1,4 @@
 slurm/
+checkpoints/
+bash/
 *.sh
