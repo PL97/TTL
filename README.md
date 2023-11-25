@@ -1,4 +1,4 @@
-# [Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)
+# [Rethink Transfer Learning for Medical Image Classification](https://arxiv.org/abs/2106.05152)
 This is the offical implemention of paper **[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)** [BMVC'23 **oral**]
 
 
@@ -13,8 +13,10 @@ Overview            |  example of TTL on resent50
 # Usage
 ## Setup
 ### **pip**
+Requires python>=3.10+
 
-See the `requirements.txt` for environment configuration. 
+
+See the `requirements.txt` for environment configuration
 ```bash
 pip install -r requirements.txt
 ```
