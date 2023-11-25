@@ -30,20 +30,12 @@ high_idx = [0, 1, 2, 4, 9, 12, 13]
 
 
 def parse_opts():
-    # working_folder = "checkpoints_AdamW"
-    # working_folder = "checkpoints_repeat"
-    # working_folder = "checkpoints_pooling"
-    # working_folder = "checkpoints_lr"
-    # working_folder = "checkpoints_lr_large_random"
-
-    # working_folder = "checkpoints"
-    working_folder = "checkpoints_noisy_nopooling"
-    # working_folder = "checkpoints_nopooling"
-    # working_folder = "ablation_study/checkpoints_SGD"
-    # working_folder = "cca_layer_wise/checkpoints_SGD"
-
 
     parser = argparse.ArgumentParser()
+    
+    # general
+    parser.add_argument('--workspace', type=str, default='checkpoint', help='path of folders to save models and results')
+    parser.add_argument('--root_path', type=str, default='/home/jusun/shared/', help='path of data folders')
 
 
     # training hyper-parameters
@@ -62,9 +54,7 @@ def parse_opts():
     parser.add_argument('--finetune_from', type=int, default=-1, help="finetune model from x blocks")
     parser.add_argument('--ptl_decay', type=int, default=10, help="finetune model from x blocks")
     parser.add_argument('--slim_factor', type=int, default=2, help="finetune model from x blocks")
-    
-    
-
+ 
 
     # others
     parser.add_argument('--test', action='store_true', help ='test the pretrained model')
@@ -78,21 +68,16 @@ def parse_opts():
     parser.add_argument('--pooling', action='store_true', help ='continue training')
     
     
+    
     # work space
     parser.add_argument('--dataset', type=str, default= 'HAM', help='specify work space')
     
     
     args = parser.parse_args()
 
-    # modify this accordingly
-    # args.root_path = "/home/luo00042/SATASSD2/trunc_tl/"
-    # args.root_path = "/home/le/TL/sync/truncatedTL/"
-    args.root_path = "/home/jusun/shared/"
+
+    working_folder = args.workspace
     
-    
-    # hardcode, modify if necessary
-    # args.root_path = "/home/le/project/TL/skin/archive/"
-    # general for all dataset
     args.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     
@@ -146,24 +131,24 @@ def parse_opts():
     if args.target == "all":
         if "slim" in args.model:
             save_info = {"working_folder":working_folder, "pretrained": args.pretrained, "model": args.model, "slim":args.slim_from, "exp":args.exp, "dataset":args.dataset}
-            args.saved_path = "../{working_folder}/{dataset}/{model}_{pretrained}_{slim}_{exp}/".format(**save_info)   
+            args.saved_path = "./{working_folder}/{dataset}/{model}_{pretrained}_{slim}_{exp}/".format(**save_info)   
         elif "freeze" in args.model:
             save_info = {"working_folder":working_folder, "pretrained": args.pretrained, "model": args.model, "finetune":args.finetune_from, "exp":args.exp, "dataset":args.dataset}
-            args.saved_path = "../{working_folder}/{dataset}/{model}_{pretrained}_{finetune}_{exp}/".format(**save_info)  
+            args.saved_path = "./{working_folder}/{dataset}/{model}_{pretrained}_{finetune}_{exp}/".format(**save_info)  
         else:
             save_info = {"working_folder":working_folder, "pretrained": args.pretrained, "model": args.model, "trunc":args.trunc, "exp":args.exp, "dataset":args.dataset}
-            args.saved_path = "../{working_folder}/{dataset}/{model}_{pretrained}_{trunc}_{exp}/".format(**save_info)
+            args.saved_path = "./{working_folder}/{dataset}/{model}_{pretrained}_{trunc}_{exp}/".format(**save_info)
     else:
         if args.dataset == "CheXpert" or args.pretrained != "random":
             if "slim" in args.model:
                 save_info = {"working_folder":working_folder, "pretrained": args.pretrained, "model": args.model, "slim":args.slim_from, "exp":args.exp, "dataset":args.dataset, "target":args.target}
-                args.saved_path = "../{working_folder}/{dataset}/{model}_{pretrained}_{slim}_{target}_{exp}/".format(**save_info)   
+                args.saved_path = "./{working_folder}/{dataset}/{model}_{pretrained}_{slim}_{target}_{exp}/".format(**save_info)   
             elif "freeze" in args.model:
                 save_info = {"working_folder":working_folder, "pretrained": args.pretrained, "model": args.model, "finetune":args.finetune_from, "exp":args.exp, "dataset":args.dataset, "target":args.target}
-                args.saved_path = "../{working_folder}/{dataset}/{model}_{pretrained}_{finetune}_{target}_{exp}/".format(**save_info)  
+                args.saved_path = "./{working_folder}/{dataset}/{model}_{pretrained}_{finetune}_{target}_{exp}/".format(**save_info)  
             else:
                 save_info = {"working_folder":working_folder, "pretrained": args.pretrained, "model": args.model, "trunc":args.trunc, "exp":args.exp, "dataset":args.dataset, "target":args.target}
-                args.saved_path = "../{working_folder}/{dataset}/{model}_{pretrained}_{trunc}_{target}_{exp}/".format(**save_info)
+                args.saved_path = "./{working_folder}/{dataset}/{model}_{pretrained}_{trunc}_{target}_{exp}/".format(**save_info)
         else:
             exit("target indexing not support for the specifided dataset")
 

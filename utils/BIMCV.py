@@ -45,14 +45,6 @@ class BIMCV(Dataset):
 
     
 if __name__ == "__main__":
-
-    # pass    
-
-    df = pd.read_csv("/home/le/BIMCV/1/train.csv")
-    # # test case
-    dl = BIMCV(df, root_dir="/home/le/BIMCV/crop/")
-    for img, label in dl:
-        print(img.shape, label)
-        asdf
+    pass    
 
 

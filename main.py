@@ -58,35 +58,13 @@ def evaluate_single(model, valloader, criterion, args):
     LOSS = 0
     m = nn.Softmax(dim=1)
     total_run_time = 0
-    # time_begin = time.time()
-    # with profile(
-    #     activities=[
-    #         ProfilerActivity.CPU,
-    #         ProfilerActivity.CUDA,
-    #     ]
-    # ) as p:
+    
     counter = 0
     model.to(args.device)
     for data, label in valloader:
         input = data.to(args.device)
         target = label.to(args.device).long()
         
-        
-        # time_begin = time.time()
-        # with profile(
-        #     activities=[
-        #         ProfilerActivity.CPU,
-        #         ProfilerActivity.CUDA,
-        #     ]
-        # ) as p:
-        #     model(input)
-        # print(p.key_averages().table(
-        # sort_by="self_cuda_time_total", row_limit=-1))
-        # exit()
-        # time_end = time.time()
-        # total_run_time += time_end - time_begin
-        # counter += 1
-
         output = m(model(input))
         loss = criterion(output, target)
 
@@ -94,16 +72,6 @@ def evaluate_single(model, valloader, criterion, args):
         PRED.extend(output.detach().cpu().numpy())
         LOSS += loss.detach().cpu().numpy() * data.shape[0]
     
-    # if args.test:
-    #     print(total_run_time/counter)
-    #     # print(p.key_averages().table(
-    #     # sort_by="self_cuda_time_total", row_limit=-1))
-    #     return
-        
-    
-    # if args.test:
-    #     print("avgerage runnning time per instance", (time_end - time_begin)/valloader.dataset.__len__())
-
     LABELS = np.asarray(LABELS)
     PRED = np.asarray(PRED)
     
@@ -134,15 +102,6 @@ def evaluate_single(model, valloader, criterion, args):
         
             
         Precision = [TP[i]/(TP[i] + FP[i]) for i in range(args.classes)]
-        # print("precision", Precision)
-        # for p in Precision:
-        #     print(p)
-        # print("roc", rocs)
-        # for r in rocs:
-        #     print(r)
-        # print("prc", prcs)
-        # for p in prcs:
-        #     print(p)
         for p, r in zip(prcs, rocs):
             print("{} {}".format(p, r))
     
@@ -154,13 +113,6 @@ def evaluate_multi(model, valloader, criterion, args):
     LABELS = []
     PRED = []
     LOSS = 0
-    # for data, label in tqdm(valloader):
-    # with profile(
-    #         activities=[
-    #             ProfilerActivity.CPU,
-    #             ProfilerActivity.CUDA,
-    #         ]
-    #     ) as p:
     for data, label in valloader:
         input = data.to(args.device)
         target = label.to(args.device)
@@ -170,12 +122,6 @@ def evaluate_multi(model, valloader, criterion, args):
 
     PRED.extend(output.detach().cpu().numpy())
     LABELS.extend(label.detach().cpu().numpy())
-    
-    # if args.test:
-    #     print(p.key_averages().table(
-    #     sort_by="self_cuda_time_total", row_limit=-1))
-
-
 
     PRED = np.asarray(PRED)
     LABELS = np.asarray(LABELS)
@@ -220,7 +166,7 @@ def train(model, trainloader, valloader, args):
     model = model.to(args.device)
     if args.data_parallel:
         model = nn.DataParallel(model)
-    # optimizer = SGD(model.parameters(), lr=args.lr, momentum=0.9)
+
     if "freeze" in args.model:
         modules=list(model.children())[:-1]
         base=nn.Sequential(*modules)
@@ -233,33 +179,15 @@ def train(model, trainloader, valloader, args):
         ],
         lr = args.lr/args.ptl_decay)
 
-        # optimizer = SGD(
-        # [
-        #     {"params": fc.parameters(), "lr": args.lr},
-        #     {"params": base.parameters()},
-        # ],
-        # lr = args.lr/10,
-        # momentum=0.9)
 
     else:
         modules=list(model.children())[:-1]
         base=nn.Sequential(*modules)
         fc = list(model.children())[-1]
 
-        # optimizer = Adam(
-        # [
-        #     {"params": fc.parameters(), "lr": args.lr},
-        #     {"params": base.parameters()},
-        # ],
-        # lr = args.lr/10)
         optimizer = Adam(model.parameters(), lr = args.lr)
-        # optimizer = SGD(model.parameters(), lr=0.001, momentum=0.9)
 
-
-    # optimizer = SGD(model.parameters(), lr=0.001, momentum=0.9)
-    # optimizer = AdamW(model.parameters(), lr=args.lr)
     scheduler = lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.5, patience=5, mode='min')
-    # criterion = nn.CrossEntropyLoss(reduction='mean', weight=args.weights)
     criterion = args.criterion
     max_acc = 0
     min_loss = 1e8
@@ -272,8 +200,6 @@ def train(model, trainloader, valloader, args):
     # Start Training
     for epoch in range(args.max_epoch):
         model.train()
-        # labels, preds = [], []
-        # for data, label in tqdm(trainloader, position=0, leave=True):
         for data, label in trainloader:
             iter_count += 1
             input = data.to(args.device)
@@ -428,12 +354,7 @@ if __name__ == "__main__":
         print("training with ", args.model)
         train(model=model, trainloader=train_dl, valloader=val_dl, args=args)
     else:
-        # torch.set_num_threads(1)
-        # torch.set_num_threads(1)
-        # args.bs = 1
         args.pin_memory = True
-        # args.num_workers = 1
-        print(args.bs)
         if args.dataset == "HAM":
             test_df = pd.read_csv(os.path.join(args.root_path, str(args.exp), "test.csv"))
             test_ds = HAM(test_df, root_dir=args.root_path+"jpgs/", mode='val', args=args)
@@ -455,31 +376,14 @@ if __name__ == "__main__":
 
         print(os.path.join(args.saved_path, "best.pt"))
         model = torch.load(os.path.join(args.saved_path, "best.pt"))
-        model = model.module.to(args.device)
+        try:
+            model = model.module.to(args.device)
+        except:
+            model = model.to(args.device)
         # model = model.module
         criterion = nn.CrossEntropyLoss(reduction='mean')
 
 
         acc, _ = evaluate(model, test_dl, criterion, args)
-
-        
-
-        # with profile(
-        #     activities=[
-        #         ProfilerActivity.CPU,
-        #         ProfilerActivity.CUDA,
-        #     ]
-        # ) as p:
-        #     acc, _ = evaluate(model, test_dl, criterion, args)
-        # print(p.key_averages().table(
-        #     sort_by="self_cuda_time_total", row_limit=-1))
-
-        
         
         print("top one accuracy:", acc)
-        
-
-    
-    
-    
-
