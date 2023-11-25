@@ -1,5 +1,5 @@
 # [Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)
-This is the PyTorch implemention of our paper **[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)** [In preparation for IEEE Transactions on Medical Imaging, 2022]
+This is the offical implemention of paper **[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)** [BMVC'23 **oral**]
 
 
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-<figure><img src="figures/data_example.png"></figure>
+<figure><img src="figures/examples.png"></figure>
 
 ### **BIMCV**
 - Please download our pre-processed datasets [TBA](), put under `data/` directory and perform following commands:
@@ -28,6 +28,9 @@ pip install -r requirements.txt
     cd ./data
     unzip digit_dataset.zip
     ```
+
+<!-- ### **MIDOG 2022**
+- Please download the dataset [here](https://midog2022.grand-challenge.org/), put under `data/MIDOG/` -->
 
 ### **HAM10000**
 - Please download the dataset [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T), put under `data/HAM10000/` 
@@ -72,14 +75,18 @@ python main.py --model resnet50 --bs 64 --data_parallel --num_workers 12 --max_e
 python main.py --model layerttl_resnet50 --bs 64 --data_parallel --num_workers 12 --max_epoch 200 --pretrained imagenet --dataset BIMCV --trunc -1 --exp 1 --sub 100
 ```
 
+<figure><img src="figures/BIMVC.png"></figure>
+
 
 If you use this code or dataset in you research, please consider citing our paper with the following Bibtex code:
 
 ```
-@article{peng2021rethink,
-  title={Rethink Transfer Learning in Medical Image Classification},
-  author={Peng, Le and Liang, Hengyue and Li, Taihui and Sun, Ju},
-  journal={arXiv preprint arXiv:2106.05152},
-  year={2021}
+@article{peng2022rethinking,
+  title={Rethinking Transfer Learning for Medical Image Classification},
+  author={Peng, Le and Liang, Hengyue and Luo, Gaoxiang and Li, Taihui and Sun, Ju},
+  journal={medRxiv},
+  pages={2022--11},
+  year={2022},
+  publisher={Cold Spring Harbor Laboratory Press}
 }
 ```

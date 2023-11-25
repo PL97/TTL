@@ -1,4 +1,7 @@
 slurm/
-checkpoints/
+checkpoint*/
 bash/
+data/
 *.sh
+*.pyc
+__pycache__/
