@@ -1,5 +1,5 @@
-# [Rethink Transfer Learning for Medical Image Classification](https://arxiv.org/abs/2106.05152)
-This is the offical implemention of paper **[Rethink Transfer Learning in Medical Image Classification](https://arxiv.org/abs/2106.05152)** [BMVC'23 **oral**]
+# [Rethinking Transfer Learning for Medical Image Classification](https://arxiv.org/abs/2106.05152)
+This is the offical implemention of paper **[Rethinking Transfer Learning for Medical Image Classification](https://arxiv.org/abs/2106.05152)** [BMVC'23 **oral**]
 
 
 
